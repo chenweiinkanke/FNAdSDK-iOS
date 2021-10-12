@@ -204,20 +204,20 @@ Pod::Spec.new do |spec|
   
   
  # UBIX
-  spec.subspec 'FNUBIXAdpter' do |s|
-     s.ios.deployment_target = '9.0'
-     s.vendored_frameworks =  'FNAdSDK/FNUBIXAdpter/*.framework'
-     s.resource = 'FNAdSDK/FNUBIXAdpter/UbiXAdBundle.bundle'
-     s.dependency 'FNAdSDK-iOS/FNAdSDK'
-  end
+ #  spec.subspec 'FNUBIXAdpter' do |s|
+   #   s.ios.deployment_target = '9.0'
+  #    s.vendored_frameworks =  'FNAdSDK/FNUBIXAdpter/*.framework'
+    #  s.resource = 'FNAdSDK/FNUBIXAdpter/UbiXAdBundle.bundle'
+   #   s.dependency 'FNAdSDK-iOS/FNAdSDK'
+ #  end
   
   
  # iCloudCode
-  spec.subspec 'FNicloudCodeAdpter' do |s|
-     s.ios.deployment_target = '9.0'
-     s.vendored_frameworks =  'FNAdSDK/FNicloudCodeAdpter/*.framework'
-     s.resource = 'FNAdSDK/FNicloudCodeAdpter/../UbiXAdBundle.bundle'
-     s.dependency 'FNAdSDK-iOS/FNAdSDK'
-  end
+  # spec.subspec 'FNicloudCodeAdpter' do |s|
+  #    s.ios.deployment_target = '9.0'
+   #   s.vendored_frameworks =  'FNAdSDK/FNicloudCodeAdpter/*.framework'
+   #   s.resource = 'FNAdSDK/FNicloudCodeAdpter/../UbiXAdBundle.bundle'
+   #   s.dependency 'FNAdSDK-iOS/FNAdSDK'
+ #  end
   
 end
