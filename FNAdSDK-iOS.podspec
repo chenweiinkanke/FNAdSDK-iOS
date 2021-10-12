@@ -147,15 +147,15 @@ Pod::Spec.new do |spec|
   end
 
  # Sig
-  spec.subspec 'FNSigAdpter' do |s|
-     s.ios.deployment_target = '9.0'
-     s.vendored_frameworks =  'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
-     s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'SigmobAd-iOS', '3.2.5'
+    #  spec.subspec 'FNSigAdpter' do |s|
+        # s.ios.deployment_target = '9.0'
+        # s.vendored_frameworks =  'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
+        # s.dependency 'FNAdSDK-iOS/FNAdSDK'
+        # s.dependency 'SigmobAd-iOS', '3.2.5'
     # s.dependency 'SigmobAd-iOS/SigmobTouTiaoAdapter', '3.2.5'
     # s.dependency 'SigmobAd-iOS/SigmobGDTAdapter', '3.2.5'
     # s.dependency 'SigmobAd-iOS/SigmobKSAdapter', '3.2.5'
-  end
+     # end
 
 
  # GDT
