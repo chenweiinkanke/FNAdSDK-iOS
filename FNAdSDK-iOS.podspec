@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.21"
+  spec.version      = "4.4.22"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -204,12 +204,12 @@ Pod::Spec.new do |spec|
   
   
  # UBIX
-   # spec.subspec 'FNUBIXAdpter' do |s|
-    #   s.ios.deployment_target = '9.0'
-    #   s.vendored_frameworks =  'FNAdSDK/FNUBIXAdpter/*.framework'
-     #  s.resource = 'FNAdSDK/FNUBIXAdpter/UbiXAdBundle.bundle'
-      # s.dependency 'FNAdSDK-iOS/FNAdSDK'
-  #  end
+    spec.subspec 'FNUBIXAdpter' do |s|
+       s.ios.deployment_target = '9.0'
+       s.vendored_frameworks =  'FNAdSDK/FNUBIXAdpter/*.framework'
+       s.resource = 'FNAdSDK/FNUBIXAdpter/UbiXAdBundle.bundle'
+       s.dependency 'FNAdSDK-iOS/FNAdSDK'
+    end
   
   
  # iCloudCode
