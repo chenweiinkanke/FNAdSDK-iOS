@@ -218,6 +218,8 @@ Pod::Spec.new do |spec|
       s.vendored_frameworks =  'FNAdSDK/FNicloudCodeAdpter/*.framework'
       #s.resource = 'FNAdSDK/FNicloudCodeAdpter/../UbiXAdBundle.bundle'
       s.dependency 'FNAdSDK-iOS/FNAdSDK'
+      s.source       = { :http => "https://github.com/CocoaPods/Specs.git"     }
+      s.source       = { :git =>  "https://github.com/aliyun/aliyun-specs.git" }
       s.dependency 'AlicloudCloudCode', '1.0.5'
    end
   
