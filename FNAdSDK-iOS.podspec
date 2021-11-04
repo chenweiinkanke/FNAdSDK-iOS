@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.23"
+  spec.version      = "4.4.34"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -223,6 +223,15 @@ Pod::Spec.new do |spec|
       s.resource = 'https://github.com/aliyun/aliyun-specs.git'
       s.resource = 'https://github.com/CocoaPods/Specs.git'
       s.dependency 'AlicloudCloudCode', '1.0.5'
+   end
+   
+   
+ # FNJADYunAdpter
+   spec.subspec 'FNJADYunAdpter' do |s|
+      s.ios.deployment_target = '9.0'
+      s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
+      s.dependency 'FNAdSDK-iOS/FNAdSDK'
+     # s.dependency 'AlicloudCloudCode', '1.2.4'
    end
   
 end

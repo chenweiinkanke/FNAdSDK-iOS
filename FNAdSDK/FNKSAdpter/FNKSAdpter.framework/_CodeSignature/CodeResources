@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		f01nbXK8ecuZYYSHn8Mc76LMcXA=
-		</data>
 		<key>Headers/FNKSAdpter.h</key>
 		<data>
 		zIViNyJM/swbbrPK4Zih7n/gr4U=
@@ -30,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		suA1wpDUKxtMQhhDCWfgi5kfI5I=
+		h79IpJa1GSRkevIT3cS1AxATmMA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
