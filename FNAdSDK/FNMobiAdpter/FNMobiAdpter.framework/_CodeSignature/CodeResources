@@ -4,101 +4,86 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/FNCSJAdpter.h</key>
+		<key>Headers/FNMobiAdpter.h</key>
 		<data>
-		vatRszTYaIdbgM/h8WY7rFhGaak=
+		3GpQJhsBfa6qgNtO3M7gLEt+fIU=
 		</data>
-		<key>Headers/FNCSJInterstitial.h</key>
+		<key>Headers/FNMobiReardVideoAdpter.h</key>
 		<data>
-		WeDvr8hkWD+88UME7E1KyddLKy8=
+		Mb7D0+uPc8EawQN1Zxa9qRec3ss=
 		</data>
-		<key>Headers/FNCSJReardVideoAdpter.h</key>
+		<key>Headers/FNMobiSDKAdpter.h</key>
 		<data>
-		lvp6UMyGxzMVjNP05aevFb/rKks=
+		oI09uEJmiOEiPAgIlGpZ+AKO+io=
 		</data>
-		<key>Headers/FNCSJSDKAdpter.h</key>
+		<key>Headers/FNMobiSplashAdpter.h</key>
 		<data>
-		QRdEls9T+U0CYQoSF5ZfuqLfRgo=
-		</data>
-		<key>Headers/FNCSJSplash.h</key>
-		<data>
-		A+vTJ9ItNfqfLf8+mr9Cca15z+Q=
+		3uoGpJ8xUHm+DC6l4q19JVe1Wh0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yixXOvsUTZv0eKjMNlfU7sQuZDg=
+		sr10zXXO8Qv0sMWy6hJ08JmdAJM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		cjjTcWmqmczJm7FaeIlAtGWpi/8=
+		IU4b1096SaYZozZ70CJjWQARzVE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/FNCSJAdpter.h</key>
+		<key>Headers/FNMobiAdpter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vatRszTYaIdbgM/h8WY7rFhGaak=
+			3GpQJhsBfa6qgNtO3M7gLEt+fIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/gxWhktppll+kGdDQJoD3pRMwD9QVM77JeftEu1TMd8=
+			0G2ac7uSTUQvkY4RkrfIEW6Nv5iXqzvFJVD1+zqHAgg=
 			</data>
 		</dict>
-		<key>Headers/FNCSJInterstitial.h</key>
+		<key>Headers/FNMobiReardVideoAdpter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WeDvr8hkWD+88UME7E1KyddLKy8=
+			Mb7D0+uPc8EawQN1Zxa9qRec3ss=
 			</data>
 			<key>hash2</key>
 			<data>
-			v9IgargPpzHo+9bhR5wOvfTs38eoF4PiYub1HOLAX+I=
+			VGkLScDBn01myEz4gsM+YZIxW0ZZVo0RdHsub9qr4YM=
 			</data>
 		</dict>
-		<key>Headers/FNCSJReardVideoAdpter.h</key>
+		<key>Headers/FNMobiSDKAdpter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lvp6UMyGxzMVjNP05aevFb/rKks=
+			oI09uEJmiOEiPAgIlGpZ+AKO+io=
 			</data>
 			<key>hash2</key>
 			<data>
-			fZsmoS32keEsjn14+0LafLGLfmXe+YhPlm+Dp8AbV+0=
+			pCwXAzhTAEktsVgjMrgMxfmyQjx/s5TmeGxSWNK7lEA=
 			</data>
 		</dict>
-		<key>Headers/FNCSJSDKAdpter.h</key>
+		<key>Headers/FNMobiSplashAdpter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QRdEls9T+U0CYQoSF5ZfuqLfRgo=
+			3uoGpJ8xUHm+DC6l4q19JVe1Wh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFNzHyRGJ8Rnii+SOv22osNUeT/kSenKwbylCnS0Yu0=
-			</data>
-		</dict>
-		<key>Headers/FNCSJSplash.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			A+vTJ9ItNfqfLf8+mr9Cca15z+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			XqPqMPr2LHtsBfoc6A7fGTJtebo0xGx/KsAjYpqlC30=
+			sfmHyUOj0jlDpEoNjXwp4IBTg3mdizcsLh0XDXdXjaE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cjjTcWmqmczJm7FaeIlAtGWpi/8=
+			IU4b1096SaYZozZ70CJjWQARzVE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wKhZ0AM4Ct2yQwzE1BdN6lkziaL7wGV429HGGvq8Oig=
+			jEFoE2AJKROF4wJVEkRyn82nII9mcYIWVe4vWmZunzc=
 			</data>
 		</dict>
 	</dict>
