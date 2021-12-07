@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic,weak) id<FNLoadReardVideoAdDelegate> delegate;
 
-
 /**用户的userid*/
 @property(nonatomic, copy) NSString *userIdentifier;
 

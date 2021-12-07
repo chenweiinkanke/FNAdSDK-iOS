@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FNADManagers.h</key>
+		<data>
+		suxCVGuNeFOmN3EthYNhqC1UinM=
+		</data>
 		<key>Headers/FNAdSDK.h</key>
 		<data>
-		lW2ncxuLvO04cZqSimM9unIy5kc=
+		WjL4T2Cksm9XusVfjYLxo6gAiyM=
 		</data>
 		<key>Headers/FNInitalizeBanner.h</key>
 		<data>
@@ -18,11 +22,11 @@
 		</data>
 		<key>Headers/FNInitalizeRardVideo.h</key>
 		<data>
-		z7eBteHjNcQyMFL3n4T9sSa1C9I=
+		7B+kXFFfmWkHUMn3f3Wa7ddBl+g=
 		</data>
 		<key>Headers/FNInitializeSplash.h</key>
 		<data>
-		/39I2KvgoNQzwdeU8qj5S956zls=
+		Kg2WanqFUepYHCnBBgZLajYJoj4=
 		</data>
 		<key>Headers/FNLoadInterstitialAdDelegate.h</key>
 		<data>
@@ -52,50 +56,29 @@
 		<data>
 		KIf56YrkjtpGHn3PZ4uoFF9pOvs=
 		</data>
-		<key>fnMobi.bundle/Mute@2x.png</key>
-		<data>
-		zBYpC0Z3zJnjA7e7VXHUD82B1lU=
-		</data>
-		<key>fnMobi.bundle/Mute@3x.png</key>
-		<data>
-		Xkobd1hAuLrbVENTXneQyUIqlkg=
-		</data>
-		<key>fnMobi.bundle/clickBtn@2x.png</key>
-		<data>
-		jwIwXAddErWHARETup9iNdXOAuQ=
-		</data>
-		<key>fnMobi.bundle/clickBtn@3x.png</key>
-		<data>
-		wsW3bqGLsvcVpybJPGxZRJY2a7w=
-		</data>
-		<key>fnMobi.bundle/close@2x.png</key>
-		<data>
-		uRHtg0Por2X7Ja/5IdjAt7NskCs=
-		</data>
-		<key>fnMobi.bundle/close@3x.png</key>
-		<data>
-		T9j4YYkePyFME/ZPW/g4L0mV4u4=
-		</data>
-		<key>fnMobi.bundle/volume@2x.png</key>
-		<data>
-		IMR8J7TjdlR3XranKmyP7REKkZo=
-		</data>
-		<key>fnMobi.bundle/volume@3x.png</key>
-		<data>
-		D+TRe+hiC8L/vEnjcSG5Zw5P1U4=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FNADManagers.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			suxCVGuNeFOmN3EthYNhqC1UinM=
+			</data>
+			<key>hash2</key>
+			<data>
+			aZWQtQyiiPOtLOu7EF9uRGMymfmhLXpyRE7U+xCQ7Y0=
+			</data>
+		</dict>
 		<key>Headers/FNAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lW2ncxuLvO04cZqSimM9unIy5kc=
+			WjL4T2Cksm9XusVfjYLxo6gAiyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxej8wlBKzJK+UGEOMtt5gsUJdc1C/Y90isOkrLAOcY=
+			8//vgx8IMzSTosofqg3FS8n+GCzK9R3VKZS0dmOLKag=
 			</data>
 		</dict>
 		<key>Headers/FNInitalizeBanner.h</key>
@@ -124,22 +107,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z7eBteHjNcQyMFL3n4T9sSa1C9I=
+			7B+kXFFfmWkHUMn3f3Wa7ddBl+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			tqb87Vm2ffNBZgCX7ogr40oEnq4Au4a1IivjIMf/GiQ=
+			1hrtwdyV2TaM3urWjlRm8MCzIMCuV4xO+e+MM9ccCcY=
 			</data>
 		</dict>
 		<key>Headers/FNInitializeSplash.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/39I2KvgoNQzwdeU8qj5S956zls=
+			Kg2WanqFUepYHCnBBgZLajYJoj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ASLeR6VLIwbZIBjIyX6IPtNILOYwr1a/qaghpcqbNOM=
+			faMIoRRhxhEC/YtfWoxtfy1BHUWaeTmoybbEfSrLBA0=
 			</data>
 		</dict>
 		<key>Headers/FNLoadInterstitialAdDelegate.h</key>
@@ -206,94 +189,6 @@
 			<key>hash2</key>
 			<data>
 			LgWgJoaMDYB9OmemySNglgKg9wlQfmWr4hrznIqlQng=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/Mute@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zBYpC0Z3zJnjA7e7VXHUD82B1lU=
-			</data>
-			<key>hash2</key>
-			<data>
-			uTI+VjmWml/E68VCpUk6H1J+WHvult4HK4L3iGeAeC4=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/Mute@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xkobd1hAuLrbVENTXneQyUIqlkg=
-			</data>
-			<key>hash2</key>
-			<data>
-			25twFPuq5umasPTCqKkuKYH4ZyJNgSY+G96cpL6W7io=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/clickBtn@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jwIwXAddErWHARETup9iNdXOAuQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			OJFJ7Rzaarbm5aXEGqo+QtrN1Zu9OFwYzJsJmzqXDsU=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/clickBtn@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wsW3bqGLsvcVpybJPGxZRJY2a7w=
-			</data>
-			<key>hash2</key>
-			<data>
-			qPWqaRSd+y2NYd/nANqa3lFF8t3VYKyAWjnhvGIKj7E=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/close@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uRHtg0Por2X7Ja/5IdjAt7NskCs=
-			</data>
-			<key>hash2</key>
-			<data>
-			BA3FLYH0VD2f78/JQrkH4d+IikjN0JG/43kZnOtGuSc=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/close@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			T9j4YYkePyFME/ZPW/g4L0mV4u4=
-			</data>
-			<key>hash2</key>
-			<data>
-			wPxgmU1iLgWPZEPEvr+xov3Xf8lkQ3+KWDNNsL3hlZc=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/volume@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IMR8J7TjdlR3XranKmyP7REKkZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			yFo0FxHIVpdvAiBJOE2mxZZHKYzsgKm92qjYVC943bw=
-			</data>
-		</dict>
-		<key>fnMobi.bundle/volume@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			D+TRe+hiC8L/vEnjcSG5Zw5P1U4=
-			</data>
-			<key>hash2</key>
-			<data>
-			5k6RhUK/GMmHgvvv0qE9DQoLQ7luN0o6kNuTr7BKY6Y=
 			</data>
 		</dict>
 	</dict>

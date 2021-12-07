@@ -222,17 +222,17 @@ Pod::Spec.new do |spec|
   
   
  # iCloudCode
-   spec.subspec 'FNicloudCodeAdpter' do |s|
-      s.ios.deployment_target = '9.0'
-      s.vendored_frameworks =  'FNAdSDK/FNicloudCodeAdpter/*.framework'
+   #spec.subspec 'FNicloudCodeAdpter' do |s|
+     # s.ios.deployment_target = '9.0'
+     # s.vendored_frameworks =  'FNAdSDK/FNicloudCodeAdpter/*.framework'
       #s.resource = 'FNAdSDK/FNicloudCodeAdpter/../UbiXAdBundle.bundle'
-      s.dependency 'FNAdSDK-iOS/FNAdSDK'
+    # s.dependency 'FNAdSDK-iOS/FNAdSDK'
      # s.source       = { :http => "https://github.com/CocoaPods/Specs.git"     }
       #s.source       = { :git =>  "https://github.com/aliyun/aliyun-specs.git" }
-      s.resource = 'https://github.com/aliyun/aliyun-specs.git'
-      s.resource = 'https://github.com/CocoaPods/Specs.git'
-      s.dependency 'AlicloudCloudCode', '1.0.5'
-   end
+     # s.resource = 'https://github.com/aliyun/aliyun-specs.git'
+    #  s.resource = 'https://github.com/CocoaPods/Specs.git'
+     # s.dependency 'AlicloudCloudCode', '1.0.5'
+ #  end
    
    
  # FNJADYunAdpter
@@ -240,7 +240,16 @@ Pod::Spec.new do |spec|
       s.ios.deployment_target = '9.0'
       s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
       s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     # s.dependency 'AlicloudCloudCode', '1.2.4'
+      s.dependency 'AlicloudCloudCode', '1.2.4'
+   end
+  
+  
+ # FNTopOnAdpter
+   spec.subspec 'FNTopOnAdpter' do |s|
+      s.ios.deployment_target = '9.0'
+      s.vendored_frameworks =  'FNAdSDK/FNTopOnAdpter/*.framework'
+      s.dependency 'FNAdSDK-iOS/FNAdSDK'
+      s.dependency 'AnyThinkiOS', '5.7.65'
    end
   
 end

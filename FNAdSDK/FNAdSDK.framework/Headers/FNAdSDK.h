@@ -30,3 +30,5 @@ FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 #import <FNAdSDK/FNOnlyFeedAds.h>
 
 #import <FNAdSDK/NSObject+FNProperty.h>
+#import <FNAdSDK/FNADManagers.h>
+
