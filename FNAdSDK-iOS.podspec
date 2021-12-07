@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.35"
+  spec.version      = "4.4.37"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -181,7 +181,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNKSAdpter/FNKSAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'KSAdSDK', '3.3.12'
+     s.dependency 'KSAdSDK', '3.3.18.1'
   end
   
   
@@ -190,7 +190,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNCSJAdpter/FNCSJAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'Ads-CN', '4.1.0.1'
+     s.dependency 'Ads-CN', '4.1.0.2'
   end
   
   
@@ -236,12 +236,12 @@ Pod::Spec.new do |spec|
    
    
  # FNJADYunAdpter
-   spec.subspec 'FNJADYunAdpter' do |s|
-      s.ios.deployment_target = '9.0'
-      s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
-      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      s.dependency 'AlicloudCloudCode', '1.2.4'
-   end
+   #spec.subspec 'FNJADYunAdpter' do |s|
+      #s.ios.deployment_target = '9.0'
+      #s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
+      #s.dependency 'FNAdSDK-iOS/FNAdSDK'
+      #s.dependency 'AlicloudCloudCode', '1.2.4'
+  # end
   
   
  # FNTopOnAdpter
