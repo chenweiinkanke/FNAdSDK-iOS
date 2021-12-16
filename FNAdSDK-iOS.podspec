@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.38"
+  spec.version      = "4.4.38.1"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
     s.libraries    = "c++", "sqlite3.0", "z", "xml2", "resolv.9"
     s.vendored_frameworks =  'FNAdSDK/FNAdSDK.framework'
     #s.resource = 'FNAdSDK/fnMobi.bundle'
-    s.dependency "ijkplayer","~>1.1.3"
+   # s.dependency "ijkplayer","~>1.1.3"
   end
 
  # FNMobiAdpter
