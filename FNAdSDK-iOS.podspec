@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.38.1"
+  spec.version      = "4.4.38.2"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -142,8 +142,7 @@ Pod::Spec.new do |spec|
     s.weak_framework = 'WebKit', 'UIKit', 'Foundation'
     s.libraries    = "c++", "sqlite3.0", "z", "xml2", "resolv.9"
     s.vendored_frameworks =  'FNAdSDK/FNAdSDK.framework'
-    #s.resource = 'FNAdSDK/fnMobi.bundle'
-   # s.dependency "ijkplayer","~>1.1.3"
+
   end
 
  # FNMobiAdpter
@@ -161,9 +160,9 @@ Pod::Spec.new do |spec|
          s.vendored_frameworks =  'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
          s.dependency 'FNAdSDK-iOS/FNAdSDK'
          s.dependency 'SigmobAd-iOS', '3.5.0'
-       # s.dependency 'SigmobAd-iOS/SigmobTouTiaoAdapter', '3.2.5'
-       # s.dependency 'SigmobAd-iOS/SigmobGDTAdapter', '3.2.5'
-       # s.dependency 'SigmobAd-iOS/SigmobKSAdapter', '3.2.5'
+        s.dependency 'SigmobAd-iOS/SigmobTouTiaoAdapter', '3.5.0'
+        s.dependency 'SigmobAd-iOS/SigmobGDTAdapter', '3.5.0'
+        s.dependency 'SigmobAd-iOS/SigmobKSAdapter', '3.5.0'
   end
 
 
