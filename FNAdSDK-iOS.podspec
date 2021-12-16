@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.38.2"
+  spec.version      = "4.4.38.3"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -160,9 +160,6 @@ Pod::Spec.new do |spec|
          s.vendored_frameworks =  'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
          s.dependency 'FNAdSDK-iOS/FNAdSDK'
          s.dependency 'SigmobAd-iOS', '3.5.0'
-        s.dependency 'SigmobAd-iOS/SigmobTouTiaoAdapter', '3.5.0'
-        s.dependency 'SigmobAd-iOS/SigmobGDTAdapter', '3.5.0'
-        s.dependency 'SigmobAd-iOS/SigmobKSAdapter', '3.5.0'
   end
 
 
