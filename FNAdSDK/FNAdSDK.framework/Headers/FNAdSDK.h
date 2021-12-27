@@ -29,10 +29,6 @@ FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 //feed
 #import <FNAdSDK/FNOnlyFeedAds.h>
 
-// shipingliu
-#import <FNAdSDK/FNAdRewardDelegate.h>
-#import <FNAdSDK/FNDrawAdObject.h>
-
 
 #import <FNAdSDK/NSObject+FNProperty.h>
 #import <FNAdSDK/FNADManagers.h>

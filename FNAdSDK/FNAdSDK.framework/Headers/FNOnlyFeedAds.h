@@ -51,7 +51,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<FNOnlyFeedAdsDelegate> delegate;
 
-
 /**
  请求视频的时长下限，视频时长有效值范围为[5,60]。
  以下两种情况会使用系统默认的最小值设置，1:不设置  2:minVideoDuration大于maxVideoDuration
@@ -73,6 +72,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**params count  一次拉取广告的个数
  */
 - (void)loadFnFeedAd:(NSString *)appid  ADS:(NSString *)adsID loadCount:(int)count;
+
+
+/// 绑定广告
+/// @param view 用于显示广告的视图
+/// @param itemAd  一个广告条目
+- (void)registerViewForInteraction:(nonnull UIView *)view itemAd:(nonnull id)itemAd;
 
 @end
 
