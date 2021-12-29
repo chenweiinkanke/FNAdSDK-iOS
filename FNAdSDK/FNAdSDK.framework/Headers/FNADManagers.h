@@ -15,6 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharefnADManager;
 
 
+/// 获取 SDK 版本
++ (NSString *)sdkVersion;
+
+
 /// 初始化数据
 /// @param appid FNappid
 - (void)initWithFNAppID:(NSString *)appid;

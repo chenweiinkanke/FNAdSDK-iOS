@@ -31,12 +31,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /// 加载并显示
-- (void)loadAndShowFnRardVidelAd:(UIViewController *)rootViewController;
+- (void)loadAndShowFnRerdVidelAd:(UIViewController *)rootViewController;
 
 
 
 /// 加载广告<load>
-- (void)loadFnRardVidelAd;
+- (void)loadFnRerdVideoAd;
 
 /// 显示
 /// @param rootViewController 用于显示激励视屏

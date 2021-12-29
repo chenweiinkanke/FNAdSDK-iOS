@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.39.0"
+  spec.version      = "4.4.39.1"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -131,6 +131,10 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.default_subspec = 'FNAdSDK'
+  spec.xcconfig =
+  {
+    'OTHER_LDFLAGS' => '-ObjC'
+  }
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   # spec.dependency "JSONKit", "~> 1.4"
@@ -247,6 +251,14 @@ Pod::Spec.new do |spec|
       s.vendored_frameworks =  'FNAdSDK/FNTopOnAdpter/*.framework'
       s.dependency 'FNAdSDK-iOS/FNAdSDK'
       s.dependency 'AnyThinkiOS', '5.7.65'
+   end
+   
+# FNMinAdpter
+   spec.subspec 'FNMinAdpter' do |s|
+      s.ios.deployment_target = '9.0'
+      s.vendored_frameworks =  'FNAdSDK/FNMinAdpter/*.framework'
+      s.dependency 'FNAdSDK-iOS/FNAdSDK'
+      s.dependency 'MintegralAdSDK', '7.0.5.0'
    end
   
 end
