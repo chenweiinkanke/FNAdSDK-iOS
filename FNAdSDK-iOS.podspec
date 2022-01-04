@@ -237,12 +237,11 @@ Pod::Spec.new do |spec|
    
    
  # FNJADYunAdpter
-   #spec.subspec 'FNJADYunAdpter' do |s|
-      #s.ios.deployment_target = '9.0'
-      #s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
-      #s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      #s.dependency 'AlicloudCloudCode', '1.2.4'
-  # end
+   spec.subspec 'FNJADYunAdpter' do |s|
+      s.ios.deployment_target = '9.0'
+      s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
+      s.dependency 'FNAdSDK-iOS/FNAdSDK'
+   end
   
   
  # FNTopOnAdpter
