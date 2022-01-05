@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.39.1"
+  spec.version      = "4.4.39.2"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -173,7 +173,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNGDTAdpter/FNGDTAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'GDTMobSDK', '4.13.32'
+     s.dependency 'GDTMobSDK', '4.13.41'
   end
 
 
@@ -237,11 +237,11 @@ Pod::Spec.new do |spec|
    
    
  # FNJADYunAdpter
-   spec.subspec 'FNJADYunAdpter' do |s|
-      s.ios.deployment_target = '9.0'
-      s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
-      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-   end
+  # spec.subspec 'FNJADYunAdpter' do |s|
+     # s.ios.deployment_target = '9.0'
+      #s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
+     # s.dependency 'FNAdSDK-iOS/FNAdSDK'
+ #  end
   
   
  # FNTopOnAdpter

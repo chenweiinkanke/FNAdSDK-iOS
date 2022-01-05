@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>FNAdSDK.md</key>
+		<data>
+		pCAPup+oro0cjmq1HXNnu7ASdiE=
+		</data>
 		<key>Headers/FNADManagers.h</key>
 		<data>
 		+nBvRCiqBAbp2oGksVNEkGXAoEU=
@@ -59,6 +63,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>FNAdSDK.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pCAPup+oro0cjmq1HXNnu7ASdiE=
+			</data>
+			<key>hash2</key>
+			<data>
+			7GTKMccJyl7HB6Z1j/jK4him3XffxrQlZKjgmXkPBsk=
+			</data>
+		</dict>
 		<key>Headers/FNADManagers.h</key>
 		<dict>
 			<key>hash</key>
