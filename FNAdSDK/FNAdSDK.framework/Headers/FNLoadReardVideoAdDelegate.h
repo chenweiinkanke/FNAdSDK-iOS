@@ -37,8 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  视频广告播放达到激励条件回调
+ @param orderId 订单ID
  */
-- (void)fnRewardVideoReward;
+- (void)fnRewardVideoReward:(NSString *)orderId;
 
 
 /**

@@ -32,6 +32,24 @@
 		<data>
 		MVvIhGeeumrvIZOKN+dZZ992Vy8=
 		</data>
+		<key>Sigmob.bundle/en.lproj/SigmobLanguage.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7aA9meeoeixqyXxUSpkNqoxJFSE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Sigmob.bundle/zh-Hans.lproj/SigmobLanguage.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5hyOE/kQJVx6Za/nhdOCwClhKnI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -100,6 +118,32 @@
 			<data>
 			P1LRqS8939jRNqTUBEXxA9OhSOFQM1VfXEWIb3Jm+Ck=
 			</data>
+		</dict>
+		<key>Sigmob.bundle/en.lproj/SigmobLanguage.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7aA9meeoeixqyXxUSpkNqoxJFSE=
+			</data>
+			<key>hash2</key>
+			<data>
+			e3t94D8pMEIPa7dSCRH4AdJ0oXQJ1yrRre5xRp8jwU8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Sigmob.bundle/zh-Hans.lproj/SigmobLanguage.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5hyOE/kQJVx6Za/nhdOCwClhKnI=
+			</data>
+			<key>hash2</key>
+			<data>
+			MhDFUaieSxhAGk1NPe8Rfv3ZNvLro9e5V44eiTEtups=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
