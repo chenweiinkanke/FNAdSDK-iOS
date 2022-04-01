@@ -18,13 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,weak) id<FNLoadInterstitialAdDelegate> delegate;
 
 
-/**初始化当前类*/
-+ (instancetype)shareFnINterstitial;
 
-/**初始化SDK*/
-/**params adsID 由平台分配初始化平台ID*/
-/**params adsID 由平台分配广告位ID*/
-- (void)loadFnInterstitialAd:(NSString *)appid  ADS:(NSString *)adsID;
+/// 构造方法
+/// @param appId 初始化平台id
+/// @param adsId 广告位
+- (instancetype)initWithPlacementId:(NSString *)appId adsId:(NSString *)adsId;
+
+
+/// 加载并显示
+- (void)loadFnInterstitialAd;
 
 
 @end

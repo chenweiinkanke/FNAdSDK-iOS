@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FNDrawAd.h</key>
+		<data>
+		OSt8h+bTPeG2b0ip98hKL4DQrrs=
+		</data>
+		<key>Headers/FNDrawAdsManager.h</key>
+		<data>
+		r80ks31coOtWWBLVetY21m7DVZk=
+		</data>
 		<key>Headers/FNKSAdpter.h</key>
 		<data>
-		MZkMiQWb4thvnI5OB8CDNu6gDTk=
+		R6F9DysoU+Ni+qnR76gjqU+eO0A=
 		</data>
 		<key>Headers/FNKSInterstitial.h</key>
 		<data>
-		ZUmTVd5bibQ18+5ROKrpdgDAyMM=
+		Z0ekk2gbZOK0w8JxY9n1wQPC4UM=
 		</data>
 		<key>Headers/FNKSReardVideoAdpter.h</key>
 		<data>
@@ -26,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VJJKHUV+K0eXeIYHuEwsCSe29B0=
+		HN21Au8IsfOxWWjB30XE5dGLrLU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,26 +43,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FNDrawAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OSt8h+bTPeG2b0ip98hKL4DQrrs=
+			</data>
+			<key>hash2</key>
+			<data>
+			BMGbz5rxJBR+mn2UKipf9gL5fe+czgDnRGs0I/aF5qE=
+			</data>
+		</dict>
+		<key>Headers/FNDrawAdsManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r80ks31coOtWWBLVetY21m7DVZk=
+			</data>
+			<key>hash2</key>
+			<data>
+			3PuuBBqwRcL5tCrASuieTcs+k/WZ7Q938EdsbxVjaKU=
+			</data>
+		</dict>
 		<key>Headers/FNKSAdpter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MZkMiQWb4thvnI5OB8CDNu6gDTk=
+			R6F9DysoU+Ni+qnR76gjqU+eO0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			/gJ7UkgyySQyI8gRVuLufBJYRJQjgt6HUHnyoK8szhU=
+			tZUhzkQzR5W4nkNqCqeICAI5lrEXwO9lRMrPEdBItXc=
 			</data>
 		</dict>
 		<key>Headers/FNKSInterstitial.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZUmTVd5bibQ18+5ROKrpdgDAyMM=
+			Z0ekk2gbZOK0w8JxY9n1wQPC4UM=
 			</data>
 			<key>hash2</key>
 			<data>
-			OUI6vogxsWE94FNOwz6UJgjRbVkIxC5HuGAZl17smKk=
+			Whkc02jK0jAnZMSMRYNZNo5crBWPXVGa82aLVIW/jds=
 			</data>
 		</dict>
 		<key>Headers/FNKSReardVideoAdpter.h</key>

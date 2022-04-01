@@ -21,4 +21,6 @@ FOUNDATION_EXPORT const unsigned char FNCSJAdpterVersionString[];
 #import <FNCSJAdpter/FNCSJSplash.h>
 #import <FNCSJAdpter/FNCSJInterstitial.h>
 #import <FNCSJAdpter/FNCSJReardVideoAdpter.h>
+#import <FNCSJAdpter/FNCSJBannerAdpter.h>
+
 

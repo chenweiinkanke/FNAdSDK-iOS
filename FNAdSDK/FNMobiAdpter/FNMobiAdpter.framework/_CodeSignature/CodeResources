@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/FNMobiAdpter.h</key>
-		<data>
-		YEPv7ToT4xvWKyULexvcDwEtKVU=
-		</data>
 		<key>Headers/FNMobiReardVideoAdpter.h</key>
 		<data>
 		Mb7D0+uPc8EawQN1Zxa9qRec3ss=
@@ -22,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t1sU7rac31yPviDCql4rOB+9W+M=
+		WIuTV1lytzQCHdEXr2nl9e5uqw8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,17 +27,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/FNMobiAdpter.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YEPv7ToT4xvWKyULexvcDwEtKVU=
-			</data>
-			<key>hash2</key>
-			<data>
-			tJOOJzCvJy5FORAiw/A8AamOrn62LNcxPs8KHOqVx9g=
-			</data>
-		</dict>
 		<key>Headers/FNMobiReardVideoAdpter.h</key>
 		<dict>
 			<key>hash</key>

@@ -47,15 +47,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,weak) id<FNLoadBannerAdDelegate> delegate;
 
 
-/**初始化当前类*/
-+ (instancetype)shareFnBanner;
+
+/// 构造方法
+/// @param appId 初始化平台Id
+/// @param adsId 广告位Id
+- (instancetype)initWithPlacementId:(NSString *)appId adsId:(NSString *)adsId;
 
 
-/**初始化SDK*/
-/**params adsID 由平台分配初始化ID*/
-/**params adsID 由平台分配广告位ID*/
-/**params viewcontroller   当前self*/
-- (void)loadFnBannerAd:(NSString *)appid ADS:(NSString *)adsID    initWithView:(UIView *)view;
+/**构造方法*/
+/**params view   当前用于展示banner的视图*/
+- (void)loadFnBannerAdWithView:(UIView *)view;
 @end
 
 NS_ASSUME_NONNULL_END

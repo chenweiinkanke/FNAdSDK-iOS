@@ -6,7 +6,11 @@
 	<dict>
 		<key>Headers/FNCSJAdpter.h</key>
 		<data>
-		kydc/NhswgYWXFYx2q9nh3qwcVc=
+		atw/xsLXRj7lBV12BtPVbQlktT0=
+		</data>
+		<key>Headers/FNCSJBannerAdpter.h</key>
+		<data>
+		NPXekWOddeqcQYis5r8z8BLWytc=
 		</data>
 		<key>Headers/FNCSJInterstitial.h</key>
 		<data>
@@ -22,11 +26,15 @@
 		</data>
 		<key>Headers/FNCSJSplash.h</key>
 		<data>
-		A+vTJ9ItNfqfLf8+mr9Cca15z+Q=
+		epV+Wxw/vYjsJsQ9GnbdyMneHG4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yixXOvsUTZv0eKjMNlfU7sQuZDg=
+		vhnksUqZ+O1HUGtxpk4QSCCGhKY=
+		</data>
+		<key>InfoFNCSJAdpter.plist</key>
+		<data>
+		1npES2RlxnPLtYdjTP97dsOvINQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +47,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kydc/NhswgYWXFYx2q9nh3qwcVc=
+			atw/xsLXRj7lBV12BtPVbQlktT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			psL1MnBxHjsLZO5bBVinG5WM8Ox9dnAGFX4HuKnnkRY=
+			uonfBP30rxY00RRCuL9z7UjzxPQU6/pTe4PXuzxp+7Q=
+			</data>
+		</dict>
+		<key>Headers/FNCSJBannerAdpter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NPXekWOddeqcQYis5r8z8BLWytc=
+			</data>
+			<key>hash2</key>
+			<data>
+			YZIdA+/GJgkuJvaZzujowxA6yaqEsBn/Zbr2OGGH0fg=
 			</data>
 		</dict>
 		<key>Headers/FNCSJInterstitial.h</key>
@@ -83,11 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A+vTJ9ItNfqfLf8+mr9Cca15z+Q=
+			epV+Wxw/vYjsJsQ9GnbdyMneHG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XqPqMPr2LHtsBfoc6A7fGTJtebo0xGx/KsAjYpqlC30=
+			dTE2zwR1b9QMO9psGR1r+JZrYo2yROMMWfnULqeE+Z0=
+			</data>
+		</dict>
+		<key>InfoFNCSJAdpter.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1npES2RlxnPLtYdjTP97dsOvINQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			jarVe37MFn5zqqLdCWot+ohIkoedNMm9IBVG5+52OxQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

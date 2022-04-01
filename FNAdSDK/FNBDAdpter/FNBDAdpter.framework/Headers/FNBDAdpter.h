@@ -19,4 +19,5 @@ FOUNDATION_EXPORT const unsigned char FNBDAdpterVersionString[];
 #import <FNBDAdpter/FNBDSplash.h>
 #import <FNBDAdpter/FNBDInteratitial.h>
 #import <FNBDAdpter/FNBDReardVideoAdpter.h>
+#import <FNBDAdpter/FNBDCPUChannelAdpter.h>
 

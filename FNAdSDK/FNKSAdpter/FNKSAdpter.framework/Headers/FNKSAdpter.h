@@ -21,3 +21,5 @@ FOUNDATION_EXPORT const unsigned char FNKSAdpterVersionString[];
 #import <FNKSAdpter/FNKSSplash.h>
 #import <FNKSAdpter/FNKSInterstitial.h>
 #import <FNKSAdpter/FNKSReardVideoAdpter.h>
+#import <FNKSAdpter/FNDrawAdsManager.h>
+#import <FNKSAdpter/FNDrawAd.h>

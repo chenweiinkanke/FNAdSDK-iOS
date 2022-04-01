@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.4.39.3"
+  spec.version      = "4.5.0.0"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -182,7 +182,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNKSAdpter/FNKSAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'KSAdSDK', '3.3.20'
+     s.dependency 'KSAdSDK', '3.3.21'
   end
   
   
@@ -245,12 +245,12 @@ Pod::Spec.new do |spec|
   
   
  # FNTopOnAdpter
-   spec.subspec 'FNTopOnAdpter' do |s|
-      s.ios.deployment_target = '9.0'
-      s.vendored_frameworks =  'FNAdSDK/FNTopOnAdpter/*.framework'
-      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      s.dependency 'AnyThinkiOS', '5.7.65'
-   end
+  # spec.subspec 'FNTopOnAdpter' do |s|
+      #s.ios.deployment_target = '9.0'
+     # s.vendored_frameworks =  'FNAdSDK/FNTopOnAdpter/*.framework'
+    #  s.dependency 'FNAdSDK-iOS/FNAdSDK'
+    #  s.dependency 'AnyThinkiOS', '5.7.65'
+  # end
    
 # FNMinAdpter
    spec.subspec 'FNMinAdpter' do |s|

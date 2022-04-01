@@ -1,15 +1,15 @@
 //
-//  FNKSInterstitial.h
-//  FNAD
+//  FNDrawAdsManager.h
+//  FNKSAdpter
 //
-//  Created by ALAN on 2021/7/23.
+//  Created by ALAN on 2022/2/22.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FNKSInterstitial : NSObject
+@interface FNDrawAdsManager : NSObject
 - (void)register_notification:(id)obj params:(NSDictionary *)adParams;
 @end
 

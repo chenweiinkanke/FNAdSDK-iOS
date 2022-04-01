@@ -12,5 +12,5 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FNGDTInterstitialAdapter : NSObject
 - (void)register_notification:(id)obj params:(NSDictionary *)adParams;
 @end
-
+  
 NS_ASSUME_NONNULL_END

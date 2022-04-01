@@ -6,7 +6,11 @@
 	<dict>
 		<key>Headers/FNBDAdpter.h</key>
 		<data>
-		QDr4kWo2v2z8Mp3S4pZls1V/CKA=
+		4ReT9LQ5A+/R6jw0UYomc+YKoKM=
+		</data>
+		<key>Headers/FNBDCPUChannelAdpter.h</key>
+		<data>
+		yk+7qOfkLOMRHJugIGAq182T8MA=
 		</data>
 		<key>Headers/FNBDInteratitial.h</key>
 		<data>
@@ -22,7 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lXws2mOEdHRl78Ly8RetWK2bqdM=
+		jzGromTm1b+MRT89tHvtZj7dvaY=
+		</data>
+		<key>InfoFNBDAdpter.plist</key>
+		<data>
+		1npES2RlxnPLtYdjTP97dsOvINQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +43,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QDr4kWo2v2z8Mp3S4pZls1V/CKA=
+			4ReT9LQ5A+/R6jw0UYomc+YKoKM=
 			</data>
 			<key>hash2</key>
 			<data>
-			AH8jMIXrH2ZOBUtS34YkOtuvLJU10+qCXLnJ3mHEl34=
+			EI029vEQJyueOd/APxUBUC0cLLTxyljtVN/p57J/zho=
+			</data>
+		</dict>
+		<key>Headers/FNBDCPUChannelAdpter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yk+7qOfkLOMRHJugIGAq182T8MA=
+			</data>
+			<key>hash2</key>
+			<data>
+			LZVEgR9WgzQ9b3fnHFSTRVAQKQWEvnChWo+65erbmlg=
 			</data>
 		</dict>
 		<key>Headers/FNBDInteratitial.h</key>
@@ -73,6 +92,17 @@
 			<key>hash2</key>
 			<data>
 			h0lTIsxXnRGg2+zSWpY7efTNYH+YEQhFe5s6QSOyfps=
+			</data>
+		</dict>
+		<key>InfoFNBDAdpter.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1npES2RlxnPLtYdjTP97dsOvINQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			jarVe37MFn5zqqLdCWot+ohIkoedNMm9IBVG5+52OxQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
