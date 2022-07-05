@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.5.6"
+  spec.version      = "4.5.61"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -149,15 +149,6 @@ Pod::Spec.new do |spec|
 
   end
 
- # FNMobiAdpter
-   spec.subspec 'FNMobiAdpter' do |s|
-      s.ios.deployment_target = '9.0'
-      s.vendored_frameworks =  'FNAdSDK/FNMobiAdpter/*.framework'
-      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      s.dependency 'FNMobSDK', '5.4.0'
-   end
-
-
  # Sig
   spec.subspec 'FNSigAdpter' do |s|
          s.ios.deployment_target = '9.0'
@@ -212,52 +203,11 @@ Pod::Spec.new do |spec|
      s.dependency 'BaiduMobAdSDK', '4.81'
   end
   
-  
- # UBIX
-     #spec.subspec 'FNUBIXAdpter' do |s|
-       # s.ios.deployment_target = '9.0'
-      #  s.vendored_frameworks =  'FNAdSDK/FNUBIXAdpter/*.framework'
-      #  s.resource = 'FNAdSDK/FNUBIXAdpter/UbiXAdBundle.bundle'
-      #  s.dependency 'FNAdSDK-iOS/FNAdSDK'
-    # end
-  
-  
- # iCloudCode
-   #spec.subspec 'FNicloudCodeAdpter' do |s|
-     # s.ios.deployment_target = '9.0'
-     # s.vendored_frameworks =  'FNAdSDK/FNicloudCodeAdpter/*.framework'
-      #s.resource = 'FNAdSDK/FNicloudCodeAdpter/../UbiXAdBundle.bundle'
-    # s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     # s.source       = { :http => "https://github.com/CocoaPods/Specs.git"     }
-      #s.source       = { :git =>  "https://github.com/aliyun/aliyun-specs.git" }
-     # s.resource = 'https://github.com/aliyun/aliyun-specs.git'
-    #  s.resource = 'https://github.com/CocoaPods/Specs.git'
-     # s.dependency 'AlicloudCloudCode', '1.0.5'
- #  end
-   
-   
  # FNJADYunAdpter
   # spec.subspec 'FNJADYunAdpter' do |s|
      # s.ios.deployment_target = '9.0'
       #s.vendored_frameworks =  'FNAdSDK/FNJADYunAdpter/*.framework'
      # s.dependency 'FNAdSDK-iOS/FNAdSDK'
  #  end
-  
-  
- # FNTopOnAdpter
-  # spec.subspec 'FNTopOnAdpter' do |s|
-      #s.ios.deployment_target = '9.0'
-     # s.vendored_frameworks =  'FNAdSDK/FNTopOnAdpter/*.framework'
-    #  s.dependency 'FNAdSDK-iOS/FNAdSDK'
-    #  s.dependency 'AnyThinkiOS', '5.7.65'
-  # end
-   
-# FNMinAdpter
-   spec.subspec 'FNMinAdpter' do |s|
-      s.ios.deployment_target = '9.0'
-      s.vendored_frameworks =  'FNAdSDK/FNMinAdpter/*.framework'
-      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      s.dependency 'MintegralAdSDK', '7.0.5.0'
-   end
   
 end
