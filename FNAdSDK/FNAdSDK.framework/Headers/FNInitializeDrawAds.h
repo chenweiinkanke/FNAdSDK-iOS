@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<FNInitializeDrawAdsDelegate> delegate;
 
+
 /// 初始化SDK
 /// @param appId 由平台分配初始化平台ID
 /// @param adsId 由平台分配广告位ID

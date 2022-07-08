@@ -1,0 +1,6 @@
+framework module FNAdSDK {
+  umbrella header "FNAdSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module FNMobiAdpter {
+  umbrella header "FNMobiAdpter.h"
+
+  export *
+  module * { export * }
+}

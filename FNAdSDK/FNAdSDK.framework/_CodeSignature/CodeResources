@@ -10,11 +10,19 @@
 		</data>
 		<key>Headers/FNADManagers.h</key>
 		<data>
-		+nBvRCiqBAbp2oGksVNEkGXAoEU=
+		4OIrRZzuFzLfhYqJC0ZvayYe+3E=
 		</data>
 		<key>Headers/FNAdSDK.h</key>
 		<data>
-		W+BEeL0z18eNu7z7Z5Ch5U7G0cM=
+		ePJKbaApz+mm0EmJpxlAbB2QmLQ=
+		</data>
+		<key>Headers/FNDrawRewardAds.h</key>
+		<data>
+		y3Pn41IBH4gu8z5bz5GE92l4UH0=
+		</data>
+		<key>Headers/FNGetLocation.h</key>
+		<data>
+		P/S7Gknsrwu6ewS6Dyv6+CEqQ3U=
 		</data>
 		<key>Headers/FNInitalizeBanner.h</key>
 		<data>
@@ -38,7 +46,7 @@
 		</data>
 		<key>Headers/FNInitializeDrawAds.h</key>
 		<data>
-		L2ToScaSOIVsJ5mhKHJYZRT13xc=
+		n/XGQit/TCiWrQUIw1gi6pgpYfQ=
 		</data>
 		<key>Headers/FNInitializeSplash.h</key>
 		<data>
@@ -66,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4SAIyYa0Qad7eai88YjaHVXnqhg=
+		p+vdDho4AJqdirVhLTMV57qIt+o=
 		</data>
 		<key>InfoFNAdSDK.plist</key>
 		<data>
@@ -75,6 +83,14 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		KIf56YrkjtpGHn3PZ4uoFF9pOvs=
+		</data>
+		<key>fnReward.png</key>
+		<data>
+		I160y7f10nx/wODCq2faff8x4EQ=
+		</data>
+		<key>icon_fnad_back.png</key>
+		<data>
+		dgIuO4MKtHv52oknQ0l7Z12n/4A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -94,22 +110,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+nBvRCiqBAbp2oGksVNEkGXAoEU=
+			4OIrRZzuFzLfhYqJC0ZvayYe+3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			U1K1y8rClhP1O792laz8K0qa2MbZyCQ3PfSt8kJrxzk=
+			d921LG81QQqifAQbVf1vfZR+zsajshuxHTtQh6rW9EU=
 			</data>
 		</dict>
 		<key>Headers/FNAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W+BEeL0z18eNu7z7Z5Ch5U7G0cM=
+			ePJKbaApz+mm0EmJpxlAbB2QmLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jvh7djnYN+2be39q1bBrGVlDbaECw90w+QOeBtjkDiU=
+			/1LUTLd06/PiUifUnurXfH8jBrFOoBYkooP8grfL6+o=
+			</data>
+		</dict>
+		<key>Headers/FNDrawRewardAds.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y3Pn41IBH4gu8z5bz5GE92l4UH0=
+			</data>
+			<key>hash2</key>
+			<data>
+			9bsPuhPCHjvtwwAgJ5t6nvFbN4jnfdksCKB/DkczhNw=
+			</data>
+		</dict>
+		<key>Headers/FNGetLocation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P/S7Gknsrwu6ewS6Dyv6+CEqQ3U=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bp4pMzKyMDuDvmpDjUp1JRXanE5mZ0fuPipjLBtJxkU=
 			</data>
 		</dict>
 		<key>Headers/FNInitalizeBanner.h</key>
@@ -171,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L2ToScaSOIVsJ5mhKHJYZRT13xc=
+			n/XGQit/TCiWrQUIw1gi6pgpYfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			i7aX9NZEnJbdz3nX/AWmxBS6/w8wcrtT2RMGqKvjNno=
+			JO1MNWlig/nEDOGt7UcEol+I2rrNCiI6UdXbU8l1QNk=
 			</data>
 		</dict>
 		<key>Headers/FNInitializeSplash.h</key>
@@ -264,6 +302,28 @@
 			<key>hash2</key>
 			<data>
 			LgWgJoaMDYB9OmemySNglgKg9wlQfmWr4hrznIqlQng=
+			</data>
+		</dict>
+		<key>fnReward.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I160y7f10nx/wODCq2faff8x4EQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			CT7Mh1SakB0oX8gWjH0pYBdpiKzk80nn57N7BKx4O4U=
+			</data>
+		</dict>
+		<key>icon_fnad_back.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dgIuO4MKtHv52oknQ0l7Z12n/4A=
+			</data>
+			<key>hash2</key>
+			<data>
+			gQ/KqIBbNeAXEaqz2AFsORmkjSow5ggesiTGoUZteXI=
 			</data>
 		</dict>
 	</dict>
