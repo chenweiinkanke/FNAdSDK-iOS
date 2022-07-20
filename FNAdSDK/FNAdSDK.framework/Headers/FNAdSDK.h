@@ -36,9 +36,6 @@ FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 //cpuChannel
 #import <FNAdSDK/FNInitalizeCpuChannel.h>
 
-#import <FNAdSDK/FNDrawRewardAds.h>
-
-
 #import <FNAdSDK/NSObject+FNProperty.h>
 #import <FNAdSDK/FNADManagers.h>
 
