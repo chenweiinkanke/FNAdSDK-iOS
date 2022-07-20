@@ -1,0 +1,6 @@
+framework module FNCSJAdpter {
+  umbrella header "FNCSJAdpter.h"
+
+  export *
+  module * { export * }
+}

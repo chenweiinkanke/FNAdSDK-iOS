@@ -16,10 +16,6 @@
 		<data>
 		ePJKbaApz+mm0EmJpxlAbB2QmLQ=
 		</data>
-		<key>Headers/FNDrawRewardAds.h</key>
-		<data>
-		y3Pn41IBH4gu8z5bz5GE92l4UH0=
-		</data>
 		<key>Headers/FNGetLocation.h</key>
 		<data>
 		P/S7Gknsrwu6ewS6Dyv6+CEqQ3U=
@@ -126,17 +122,6 @@
 			<key>hash2</key>
 			<data>
 			/1LUTLd06/PiUifUnurXfH8jBrFOoBYkooP8grfL6+o=
-			</data>
-		</dict>
-		<key>Headers/FNDrawRewardAds.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y3Pn41IBH4gu8z5bz5GE92l4UH0=
-			</data>
-			<key>hash2</key>
-			<data>
-			9bsPuhPCHjvtwwAgJ5t6nvFbN4jnfdksCKB/DkczhNw=
 			</data>
 		</dict>
 		<key>Headers/FNGetLocation.h</key>

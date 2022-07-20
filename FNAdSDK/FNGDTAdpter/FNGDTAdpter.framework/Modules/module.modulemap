@@ -1,0 +1,6 @@
+framework module FNGDTAdpter {
+  umbrella header "FNGDTAdpter.h"
+
+  export *
+  module * { export * }
+}

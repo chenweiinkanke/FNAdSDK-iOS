@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerContainer:(UIView *)containerView;
 - (void)unregisterView;
 
+
 @end
 
 @protocol FNDrawAdDelegate <NSObject>

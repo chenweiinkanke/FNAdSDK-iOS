@@ -1,0 +1,6 @@
+framework module FNSigmobAdpter {
+  umbrella header "FNSigmobAdpter.h"
+
+  export *
+  module * { export * }
+}
