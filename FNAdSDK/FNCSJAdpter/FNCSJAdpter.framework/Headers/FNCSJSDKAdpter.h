@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FNCSJSDKAdpter : NSObject
 
-- (void)initialize_SDK:(NSDictionary *)paramsAd;
++ (void)initialize_SDK:(NSDictionary *)paramsAd;
 @end
 
 NS_ASSUME_NONNULL_END

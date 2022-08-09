@@ -10,11 +10,15 @@
 		</data>
 		<key>Headers/FNADManagers.h</key>
 		<data>
-		j9bgG4RqJu4KpZ+TPu6IOqVrhTg=
+		dXkAibl0aHY/U1y5y1r+J+xjYEo=
 		</data>
 		<key>Headers/FNAdSDK.h</key>
 		<data>
-		nmNhyae9MpoPOB0DK2wUp40VIA0=
+		OBK/70wHB4XTBN2QTZaixQxe4VI=
+		</data>
+		<key>Headers/FNDrawRewardAds.h</key>
+		<data>
+		y3Pn41IBH4gu8z5bz5GE92l4UH0=
 		</data>
 		<key>Headers/FNGetLocation.h</key>
 		<data>
@@ -80,10 +84,6 @@
 		<data>
 		KIf56YrkjtpGHn3PZ4uoFF9pOvs=
 		</data>
-		<key>PrivateHeaders/FNDrawRewardAds.h</key>
-		<data>
-		y3Pn41IBH4gu8z5bz5GE92l4UH0=
-		</data>
 		<key>fnReward.png</key>
 		<data>
 		I160y7f10nx/wODCq2faff8x4EQ=
@@ -110,22 +110,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j9bgG4RqJu4KpZ+TPu6IOqVrhTg=
+			dXkAibl0aHY/U1y5y1r+J+xjYEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3olTh/D5Ya+jAPNmk2NzC2l1Lp7lngBfIcIIjICN7sc=
+			UsKxFgoNaeM+6zw93ul/ILNkXTsgMBWstXD0Zivzc90=
 			</data>
 		</dict>
 		<key>Headers/FNAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nmNhyae9MpoPOB0DK2wUp40VIA0=
+			OBK/70wHB4XTBN2QTZaixQxe4VI=
 			</data>
 			<key>hash2</key>
 			<data>
-			++yk/9hS8atcKIVUZ525k01MRSuFUs6ytqNyA73RARA=
+			FPHH43IStIMYUKK5sMClObAOSkaMrWtlGwEnvqEbwoA=
+			</data>
+		</dict>
+		<key>Headers/FNDrawRewardAds.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y3Pn41IBH4gu8z5bz5GE92l4UH0=
+			</data>
+			<key>hash2</key>
+			<data>
+			9bsPuhPCHjvtwwAgJ5t6nvFbN4jnfdksCKB/DkczhNw=
 			</data>
 		</dict>
 		<key>Headers/FNGetLocation.h</key>
@@ -291,17 +302,6 @@
 			<key>hash2</key>
 			<data>
 			LgWgJoaMDYB9OmemySNglgKg9wlQfmWr4hrznIqlQng=
-			</data>
-		</dict>
-		<key>PrivateHeaders/FNDrawRewardAds.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y3Pn41IBH4gu8z5bz5GE92l4UH0=
-			</data>
-			<key>hash2</key>
-			<data>
-			9bsPuhPCHjvtwwAgJ5t6nvFbN4jnfdksCKB/DkczhNw=
 			</data>
 		</dict>
 		<key>fnReward.png</key>
