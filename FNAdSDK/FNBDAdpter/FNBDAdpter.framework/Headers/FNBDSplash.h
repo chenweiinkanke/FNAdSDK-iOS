@@ -2,7 +2,7 @@
 //  FNBDSplash.h
 //  FNAD
 //
-//  Created by M967 on 2021/09/18.
+//  Created by F on 2021/09/18.
 //
 
 #import <Foundation/Foundation.h>

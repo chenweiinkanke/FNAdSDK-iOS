@@ -2,7 +2,7 @@
 //  FNGDTFeedAds.h
 //  FNAD
 //
-//  Created by M967 on 2021/07/26.
+//  Created by F on 2021/07/26.
 //
 
 #import <Foundation/Foundation.h>

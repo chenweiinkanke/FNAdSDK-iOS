@@ -2,7 +2,7 @@
 //  FNBDInteratitial.h
 //  FNAD
 //
-//  Created by M967 on 2021/09/22.
+//  Created by F on 2021/09/22.
 //
 
 #import <Foundation/Foundation.h>
