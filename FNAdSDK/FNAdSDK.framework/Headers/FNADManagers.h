@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharefnADManager;
 
 
-/// 获取 SDK 版本4.5.91
+/// 获取 SDK 版本4.5.92
 + (NSString *)sdkVersion;
 
 
