@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.5.92"
+  spec.version      = "4.6.00"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -154,7 +154,7 @@ Pod::Spec.new do |spec|
          s.ios.deployment_target = '9.0'
          s.vendored_frameworks = 'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
          s.dependency 'FNAdSDK-iOS/FNAdSDK'
-         s.dependency 'SigmobAd-iOS', '4.1.0'
+         s.dependency 'SigmobAd-iOS', '4.6.0'
         # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
   end
 
@@ -164,7 +164,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNGDTAdpter/FNGDTAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'GDTMobSDK', '4.13.81'
+     s.dependency 'GDTMobSDK', '4.13.90'
   end
 
 
@@ -173,7 +173,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNKSAdpter/FNKSAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'KSAdSDK', '3.3.27'
+     s.dependency 'KSAdSDK', '3.3.33'
   end
   
   
@@ -182,25 +182,15 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNCSJAdpter/FNCSJAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'Ads-CN-Beta', '4.7.0.0'
+     s.dependency 'Ads-CN-Beta', '4.9.0.2'
   end
-  
-  
- # YX
-  spec.subspec 'FNYXAdpter' do |s|
-     s.ios.deployment_target = '9.0'
-     s.vendored_frameworks =  'FNAdSDK/FNYXAdpter/*.framework'
-     s.resource = 'FNAdSDK/FNYXAdpter/XibAndPng.bundle'
-     s.dependency 'FNAdSDK-iOS/FNAdSDK'
-  end
-  
   
  # BD
   spec.subspec 'FNBDAdpter' do |s|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNBDAdpter/FNBDAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'BaiduMobAdSDK', '4.89'
+     s.dependency 'BaiduMobAdSDK', '4.901'
   end
   
   

@@ -4,21 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FNAdSDK.md</key>
-		<data>
-		pCAPup+oro0cjmq1HXNnu7ASdiE=
-		</data>
 		<key>Headers/FNADManagers.h</key>
 		<data>
 		adNjN4eBTw4ni5GIoFrl7XY/JyU=
 		</data>
 		<key>Headers/FNAdSDK.h</key>
 		<data>
-		OBK/70wHB4XTBN2QTZaixQxe4VI=
-		</data>
-		<key>Headers/FNDrawRewardAds.h</key>
-		<data>
-		y3Pn41IBH4gu8z5bz5GE92l4UH0=
+		SE7iJe//kyJkk8Jj9t/ZShVSPBM=
 		</data>
 		<key>Headers/FNGetLocation.h</key>
 		<data>
@@ -74,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p+vdDho4AJqdirVhLTMV57qIt+o=
+		T2rZWlP3UJlbeg6s+p55hcvR/GY=
 		</data>
 		<key>InfoFNAdSDK.plist</key>
 		<data>
@@ -84,28 +76,9 @@
 		<data>
 		KIf56YrkjtpGHn3PZ4uoFF9pOvs=
 		</data>
-		<key>fnReward.png</key>
-		<data>
-		I160y7f10nx/wODCq2faff8x4EQ=
-		</data>
-		<key>icon_fnad_back.png</key>
-		<data>
-		dgIuO4MKtHv52oknQ0l7Z12n/4A=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FNAdSDK.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pCAPup+oro0cjmq1HXNnu7ASdiE=
-			</data>
-			<key>hash2</key>
-			<data>
-			7GTKMccJyl7HB6Z1j/jK4him3XffxrQlZKjgmXkPBsk=
-			</data>
-		</dict>
 		<key>Headers/FNADManagers.h</key>
 		<dict>
 			<key>hash</key>
@@ -121,22 +94,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OBK/70wHB4XTBN2QTZaixQxe4VI=
+			SE7iJe//kyJkk8Jj9t/ZShVSPBM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FPHH43IStIMYUKK5sMClObAOSkaMrWtlGwEnvqEbwoA=
-			</data>
-		</dict>
-		<key>Headers/FNDrawRewardAds.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y3Pn41IBH4gu8z5bz5GE92l4UH0=
-			</data>
-			<key>hash2</key>
-			<data>
-			9bsPuhPCHjvtwwAgJ5t6nvFbN4jnfdksCKB/DkczhNw=
+			Kj0wrVa8XFQbJj1c/3EbbeGAomxUhAWma4GO1Dk+OYw=
 			</data>
 		</dict>
 		<key>Headers/FNGetLocation.h</key>
@@ -302,28 +264,6 @@
 			<key>hash2</key>
 			<data>
 			LgWgJoaMDYB9OmemySNglgKg9wlQfmWr4hrznIqlQng=
-			</data>
-		</dict>
-		<key>fnReward.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I160y7f10nx/wODCq2faff8x4EQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			CT7Mh1SakB0oX8gWjH0pYBdpiKzk80nn57N7BKx4O4U=
-			</data>
-		</dict>
-		<key>icon_fnad_back.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dgIuO4MKtHv52oknQ0l7Z12n/4A=
-			</data>
-			<key>hash2</key>
-			<data>
-			gQ/KqIBbNeAXEaqz2AFsORmkjSow5ggesiTGoUZteXI=
 			</data>
 		</dict>
 	</dict>
