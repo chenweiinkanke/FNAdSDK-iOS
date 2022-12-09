@@ -6,11 +6,11 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Assets.car</key>
 		<data>
-		j0pGoM+MKKMUkAPC7t7ak+h52ds=
+		n2TaunodGe83WLfMnHnL9r7WBs0=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		5cuIoOFijhWKD5dUI1yEpnqgu3w=
+		IogIUxJvSva+qOPAuG7N7XQPLpY=
 		</data>
 		<key>CSJAdSDK.bundle/ar.lproj/BULanguage.strings</key>
 		<dict>
@@ -36,6 +36,10 @@
 		<key>CSJAdSDK.bundle/bu_slienceAudio.aiff</key>
 		<data>
 		v74jzRIcosmBtYPI2ZcLbyHgbog=
+		</data>
+		<key>CSJAdSDK.bundle/bu_ugen_data_01.json</key>
+		<data>
+		8tHaqlKEVMCdndBBjXffxcF2Gjc=
 		</data>
 		<key>CSJAdSDK.bundle/de.lproj/BULanguage.strings</key>
 		<dict>
@@ -149,9 +153,21 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>CSJAdSDK.bundle/ugen_dsl_1473.json</key>
+		<data>
+		jPgftP8Tp54q+5xnmjbVWfPwvtk=
+		</data>
+		<key>CSJAdSDK.bundle/ugen_dsl_3682.json</key>
+		<data>
+		HmX9gEMDbDoZgmHlxrQxcKaUR00=
+		</data>
+		<key>CSJAdSDK.bundle/ugen_dsl_4760.json</key>
+		<data>
+		YKEUV/rxew2uQiIck2TsBGiyHCM=
+		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		yHDZHZ8bY/c3oZbr8NGaXP8PlNQ=
+		aR/ozDY0KxojqEuBpTrJRdz1JpU=
 		</data>
 		<key>CSJAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
@@ -166,7 +182,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OdhUxw9U0PcII5K/0+cM9m55wE4=
+			PzbnezRb7iR+KgXasyjqG5+Nix0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -223,22 +239,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j0pGoM+MKKMUkAPC7t7ak+h52ds=
+			n2TaunodGe83WLfMnHnL9r7WBs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			IFu9dCkBc3xTUIfl8tg46PT8AGiQdEzOKAo5d0tONgQ=
+			gtHkuu8FB6VqfFxARU+S62QDUx8U+TrN5tiMiLMDle4=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5cuIoOFijhWKD5dUI1yEpnqgu3w=
+			IogIUxJvSva+qOPAuG7N7XQPLpY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7opCMnRXK/HbOnGFKcFsc+5ePmITNracI703qqsQ77s=
+			ufUUU2K2Q/Bzvs4X+mFiHKih8lOTsVpFvXUxDFR0KCs=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/ar.lproj/BULanguage.strings</key>
@@ -296,6 +312,17 @@
 			<key>hash2</key>
 			<data>
 			DWsomZiPM/47JpKBs9w/AAdB4pofnAkaiDL01VZGjDo=
+			</data>
+		</dict>
+		<key>CSJAdSDK.bundle/bu_ugen_data_01.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8tHaqlKEVMCdndBBjXffxcF2Gjc=
+			</data>
+			<key>hash2</key>
+			<data>
+			1D0JDAUvznjkIuN4pRb5qmcN3u6kE+g7S8TmJl0FIpI=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/de.lproj/BULanguage.strings</key>
@@ -465,15 +492,48 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>CSJAdSDK.bundle/ugen_dsl_1473.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jPgftP8Tp54q+5xnmjbVWfPwvtk=
+			</data>
+			<key>hash2</key>
+			<data>
+			GoWzWkl6Y0o/1oWlWjjijjE/r1EbG5YZ9M4noNd8dcQ=
+			</data>
+		</dict>
+		<key>CSJAdSDK.bundle/ugen_dsl_3682.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HmX9gEMDbDoZgmHlxrQxcKaUR00=
+			</data>
+			<key>hash2</key>
+			<data>
+			pqiNnSmO+exqaIYS3N+JQGd+N/5gtC60KFs98SzPuk4=
+			</data>
+		</dict>
+		<key>CSJAdSDK.bundle/ugen_dsl_4760.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YKEUV/rxew2uQiIck2TsBGiyHCM=
+			</data>
+			<key>hash2</key>
+			<data>
+			L+8npJF7T9q71MtPV+qdtQiumdK7FyZdmxsfz2qCY9o=
+			</data>
+		</dict>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yHDZHZ8bY/c3oZbr8NGaXP8PlNQ=
+			aR/ozDY0KxojqEuBpTrJRdz1JpU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hRDXyqOsz3a7gDI6/cv+ilfk5SypQ3lHTs5i/jzKpAQ=
+			8pG/VgaSNwQeC2PGiV5acNqok42hS1ydPNcc/GLtG9k=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/vi.lproj/BULanguage.strings</key>
@@ -493,11 +553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OdhUxw9U0PcII5K/0+cM9m55wE4=
+			PzbnezRb7iR+KgXasyjqG5+Nix0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WKRu40nemcTmJwX4fXm4SPg2M5W4LDnSZ9rAw2ea2NE=
+			eV3srF8drmUnFeXm/dlxS+lHN3sd2ZPHO3mCSSmcVK8=
 			</data>
 			<key>optional</key>
 			<true/>
