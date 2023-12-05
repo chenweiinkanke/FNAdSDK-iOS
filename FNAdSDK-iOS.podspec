@@ -154,16 +154,7 @@ Pod::Spec.new do |spec|
          s.ios.deployment_target = '9.0'
          s.vendored_frameworks = 'FNAdSDK/FNWMAdpter/FNWMAdpter.framework'
          s.dependency 'FNAdSDK-iOS/FNAdSDK'
-         s.dependency 'AdWangMaiSDK', '5.3.0'
-        # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
-  end
-
- # JDYun ok
-  spec.subspec 'FNJDYunAdpter' do |s|
-         s.ios.deployment_target = '9.0'
-         s.vendored_frameworks = 'FNAdSDK/FNJDYunAdpter/FNJDYunAdpter.framework'
-         s.dependency 'FNAdSDK-iOS/FNAdSDK'
-         s.dependency 'SigmobAd-iOS', '1.3.4'
+        # s.dependency 'AdWangMaiSDK', '5.3.0'
         # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
   end
 
