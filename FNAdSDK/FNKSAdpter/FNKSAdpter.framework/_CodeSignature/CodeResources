@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FNDrawAd.h</key>
 		<data>
-		2yMAiAdzj7ytgWK2JvP4pjij8bs=
+		PbuwTwt1n1yRTM5IUJjMdMTxJ/k=
 		</data>
 		<key>Headers/FNDrawAdsManager.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FNKSAdpter.h</key>
 		<data>
-		R6F9DysoU+Ni+qnR76gjqU+eO0A=
+		QcSriCoCwSSVDxXv+oD4PKOqFo0=
 		</data>
 		<key>Headers/FNKSInterstitial.h</key>
 		<data>
@@ -32,9 +32,17 @@
 		<data>
 		WtD8tSqth+3o3wUBrPIojvF6WWw=
 		</data>
+		<key>Headers/FNKSTemplateFeed.h</key>
+		<data>
+		CFFF0iUUKMxSz5SJ42VR357+1WE=
+		</data>
+		<key>Headers/FNKSVideoFeed.h</key>
+		<data>
+		KI+pVqOHYWDBv741zNIqWg3HbKw=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		4ppxaYdLcd3aVU+zhHef8SeNkCg=
+		Kz3NbvSwRw42qUG6CWrHJs9sIvU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2yMAiAdzj7ytgWK2JvP4pjij8bs=
+			PbuwTwt1n1yRTM5IUJjMdMTxJ/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			QMAaU5Sm3bIChls3i3SSLeF739tG5QE8gML6u79TUto=
+			EvEaFJt0a9HAzHjR5bXaU9BWLJvUMmqtEl/C/QC7TS8=
 			</data>
 		</dict>
 		<key>Headers/FNDrawAdsManager.h</key>
@@ -69,11 +77,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R6F9DysoU+Ni+qnR76gjqU+eO0A=
+			QcSriCoCwSSVDxXv+oD4PKOqFo0=
 			</data>
 			<key>hash2</key>
 			<data>
-			tZUhzkQzR5W4nkNqCqeICAI5lrEXwO9lRMrPEdBItXc=
+			rl1OVnsDWVMuAR41Wq4vew3/hbQcDc+DwoeoJgTaOcI=
 			</data>
 		</dict>
 		<key>Headers/FNKSInterstitial.h</key>
@@ -118,6 +126,28 @@
 			<key>hash2</key>
 			<data>
 			TIN+6K9KMyTkdyAdON9dortUe5bfqUrn06zOo7RrPzU=
+			</data>
+		</dict>
+		<key>Headers/FNKSTemplateFeed.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CFFF0iUUKMxSz5SJ42VR357+1WE=
+			</data>
+			<key>hash2</key>
+			<data>
+			6u3bmUUsTNeSMmZ4eOq3N9BPAJLq5VNzjjYcEJFEbnU=
+			</data>
+		</dict>
+		<key>Headers/FNKSVideoFeed.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KI+pVqOHYWDBv741zNIqWg3HbKw=
+			</data>
+			<key>hash2</key>
+			<data>
+			GGZD6TLY/HMP+8aYsoNyni0NSwKtidbnq9jaEbog6KM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

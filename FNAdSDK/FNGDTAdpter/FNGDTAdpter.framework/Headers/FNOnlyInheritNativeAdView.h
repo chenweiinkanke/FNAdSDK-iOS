@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**用于承上启下*/
 @interface FNOnlyInheritNativeAdView : GDTUnifiedNativeAdView
 
+
+
 @end
 
 NS_ASSUME_NONNULL_END

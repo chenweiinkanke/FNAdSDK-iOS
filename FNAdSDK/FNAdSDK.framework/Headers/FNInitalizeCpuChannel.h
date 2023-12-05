@@ -25,13 +25,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取资讯URL
 /// @param channelId 频道ID
 /// @param urlStr 媒体URL
-- (void)loadCpuInfoUrlWithChannelId:(NSString *)channelId url:(void(^)(NSString *_Nonnull urlString))urlStr;
+- (void)loadCpuInfoUrlWithChannelId:(NSString *)channelId;
+
+- (void)viewRegisterViewForeInteractionWithAdArray:(NSMutableArray *)dataArray withIndexPath:(NSIndexPath *)indexPath withArray:(NSArray *)indexArray;
 @end
 
 
 @protocol FNInitalizeCpuChannelDelegate<NSObject>
 @optional
 - (void)fnCpuInfoUrldidFailWithError:(NSError *_Nullable)error;
+
+- (void)fnCpuInfoUrldidLoadSuccessWithDataSouceArray:(NSMutableArray *)fnCpuDataSouceArray withCellHArry:(NSMutableArray *)fnCpuCellHArray withDataViewArray:(NSMutableArray *)fnCpuDataViewArray;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

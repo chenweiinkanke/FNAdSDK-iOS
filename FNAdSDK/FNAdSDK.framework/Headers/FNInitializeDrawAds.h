@@ -7,6 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum : NSUInteger {
+    FNDRAWAD_THIRD_TYPE_GDT = 4,
+    FNDRAWAD_THIRD_TYPE_KS = 6,
+    
+} FNDRAWAD_THIRD_TYPE;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol FNInitializeDrawAdsDelegate;

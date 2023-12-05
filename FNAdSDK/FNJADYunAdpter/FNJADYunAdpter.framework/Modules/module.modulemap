@@ -1,0 +1,6 @@
+framework module FNJADYunAdpter {
+  umbrella header "FNJADYunAdpter.h"
+
+  export *
+  module * { export * }
+}

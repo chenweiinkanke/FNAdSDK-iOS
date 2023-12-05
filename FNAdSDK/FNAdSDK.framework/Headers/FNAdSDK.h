@@ -14,8 +14,6 @@ FOUNDATION_EXPORT double FNAdSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FNAdSDK/PublicHeader.h>
-#import <FNAdSDK/FNADManagers.h>
-#import <FNAdSDK/NSObject+FNProperty.h>
 
 //splash
 #import <FNAdSDK/FNLoadSplashAdDelegate.h>
@@ -32,13 +30,21 @@ FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 #import <FNAdSDK/FNInitalizeBanner.h>
 //feed
 #import <FNAdSDK/FNOnlyFeedAds.h>
+#import <FNAdSDK/FNFeedAdsObject.h>
 // drawAd
 #import <FNAdSDK/FNInitializeDrawAds.h>
+#import <FNAdSDK/FNDrawAdsObject.h>
+//videoFeed
+#import <FNAdSDK/FNVideoFeed.h>
 
 //cpuChannel
 #import <FNAdSDK/FNInitalizeCpuChannel.h>
+#import <FNAdSDK/FNInitalizeCpuChannelObj.h>
 
 //#import <FNAdSDK/FNDrawRewardAds.h>
 
+
+#import <FNAdSDK/NSObject+FNProperty.h>
+#import <FNAdSDK/FNADManagers.h>
 
 

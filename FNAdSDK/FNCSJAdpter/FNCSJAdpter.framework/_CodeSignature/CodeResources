@@ -222,11 +222,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qc7s6NIqCDU6ZqCeH5YbaXZp1n0=
-		</data>
-		<key>InfoFNCSJAdpter.plist</key>
-		<data>
-		1npES2RlxnPLtYdjTP97dsOvINQ=
+		+d9RpCQl7wdsbwtushegpRDOrEI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -639,17 +635,6 @@
 			<key>hash2</key>
 			<data>
 			dTE2zwR1b9QMO9psGR1r+JZrYo2yROMMWfnULqeE+Z0=
-			</data>
-		</dict>
-		<key>InfoFNCSJAdpter.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1npES2RlxnPLtYdjTP97dsOvINQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			jarVe37MFn5zqqLdCWot+ohIkoedNMm9IBVG5+52OxQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

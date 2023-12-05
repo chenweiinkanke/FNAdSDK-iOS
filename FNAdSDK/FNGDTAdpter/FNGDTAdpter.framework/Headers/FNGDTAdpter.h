@@ -14,11 +14,12 @@ FOUNDATION_EXPORT double FNGDTAdpterVersionNumber;
 FOUNDATION_EXPORT const unsigned char FNGDTAdpterVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FNGDTAdpter/PublicHeader.h>
-
+#import <FNGDTAdpter/FNGDTAdpter.h>
 #import <FNGDTAdpter/FNGDTFeedAds.h>
 #import <FNGDTAdpter/FNLogoView.h>
 #import <FNGDTAdpter/FNMediaView.h>
 #import <FNGDTAdpter/FNOnlyNativeAdDataObject.h>
+#import <FNGDTAdpter/FNOnlyInheritNativeAdView.h>
 #import <FNGDTAdpter/FNOnlyNativeAdView.h>
 #import <FNGDTAdpter/FNOnlySDKDefines.h>
 #import <FNGDTAdpter/FNVideoConfig.h>
@@ -27,4 +28,5 @@ FOUNDATION_EXPORT const unsigned char FNGDTAdpterVersionString[];
 #import <FNGDTAdpter/FNGDTSDKAdpter.h>
 #import <FNGDTAdpter/FNGDTReardVideoAdpter.h>
 #import <FNGDTAdpter/FNGDTSplash.h>
+
 

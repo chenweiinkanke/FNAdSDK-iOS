@@ -9,6 +9,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef enum : NSUInteger {
+    /**
+    竞价
+     */
+    FN_BID_TYPE = 1,
+    /**
+     固价
+     */
+    FN_GP_TYPE,
+} FN_PRICE_TYPE;
+
+
 @protocol FNLoadReardVideoAdDelegate <NSObject>
 
 /**
@@ -46,6 +58,19 @@ NS_ASSUME_NONNULL_BEGIN
  视频广告点击回调
  */
 - (void)fnRewardVideoClicked;
+
+
+/**
+ 加赞成功之后回调的价格代理方法
+ fnPriceType 是固价还是竞价
+ price 当前广告价格
+ thirdAdId:第三方广告位id
+ */
+- (void)loadSuccess:(FN_PRICE_TYPE)fnPriceType withPrice:(id)price withThirdAdID:(NSString *)thirdAdId;
+
+
+
+
 
 
 @end

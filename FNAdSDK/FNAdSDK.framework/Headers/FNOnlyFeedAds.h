@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FNFeedAdsObject.h"
 //#import "FNOnlyNativeAdDataObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -21,6 +22,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
+ 广告数据回调
+ @param error 错误信息
+ */
+- (void)fnFeedError:(NSError *)error;
+
+
+
+/**
  广告曝光回调
  */
 - (void)fn_onlyNativeAdViewWillExpose;
@@ -29,13 +38,19 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  广告点击回调
  */
-- (void)fn_onlyNativeAdViewDidClick;
+- (void)fn_onlyNativeAdViewDidClick:(FNFeedAdsObject *)adsObj;
 
 
 /**
  广告详情页关闭回调
  */
-- (void)fn_onlyNativeAdDetailViewClosed;
+- (void)fn_onlyNativeAdDetailViewClosed:(FNFeedAdsObject *)adsObj;
+
+/**
+ 广告关闭回调
+ */
+- (void)fn_onlyNativeAdDislike:(FNFeedAdsObject *)adsObj;
+
 
 @end
 
@@ -58,14 +73,45 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)shareFnOnlyFeed;
 
+/**初始化SDK*/
+/**params adsID 由平台分配初始化ID*/
+/**params adsID 由平台分配广告位ID*/
+/**params loadView 承载广告位的view*/
+/**params controller
+*  viewControllerForPresentingModalView
+*  详解：开发者传入用来弹出目标页的ViewController，一般为当前ViewController*/
+/**params count 广告个数 The number of ads requested,The maximum is 5
+*/
+- (void)loadFeedAd:(NSString *)appid  ADS:(NSString *)adsID  withView:(UIView *)loadView withController:(UIViewController *)controller loadCount:(int)count;
+
 
 /**初始化SDK*/
 /**params adsID 由平台分配初始化ID*/
 /**params adsID 由平台分配广告位ID*/
-/**params count  一次拉取广告的个数
- */
-- (void)loadFnFeedAd:(NSString *)appid  ADS:(NSString *)adsID loadCount:(int)count;
+/**params loadView 承载广告位的view*/
+/**params count 广告个数 The number of ads requested,The maximum is 5
+*/
+- (void)loadFeedAd:(NSString *)appid  ADS:(NSString *)adsID  withView:(UIView *)loadView loadCount:(int)count;
 
+/**初始化SDK*/
+//只有一个信息流广告位
+/**params adsID 由平台分配初始化ID*/
+/**params adsID 由平台分配广告位ID*/
+/**params loadView 承载广告位的view
+ */
+- (void)loadOnlyFnFeedAd:(NSString *)appid  ADS:(NSString *)adsID withView:(UIView *)loadView;
+
+
+/**初始化SDK*/
+//只有一个信息流广告位
+/**params adsID 由平台分配初始化ID*/
+/**params adsID 由平台分配广告位ID*/
+/**params loadView 承载广告位的view*/
+/**params controller
+*  viewControllerForPresentingModalView
+*  详解：开发者传入用来弹出目标页的ViewController，一般为当前ViewController*/
+
+- (void)loadOnlyFnFeedAd:(NSString *)appid  ADS:(NSString *)adsID withView:(UIView *)loadView withController:(UIViewController *)controller;
 
 /// 绑定广告
 /// @param view 用于显示广告的视图

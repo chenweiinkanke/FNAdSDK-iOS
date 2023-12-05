@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FNGDTAdpter.h</key>
 		<data>
-		Wte65hunEH45BM8UHUb6MmT66ho=
+		wE+4Xlqugo3BscvHTMIjo+2Akbc=
 		</data>
 		<key>Headers/FNGDTBanner.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/FNOnlyInheritNativeAdView.h</key>
 		<data>
-		rYXoiLL3ZC+4u+VVL3qsxYn2RIc=
+		35zevHSiVh91PM5vXZIOqcTOU0U=
 		</data>
 		<key>Headers/FNOnlyNativeAdDataObject.h</key>
 		<data>
-		+n4gu1CCcvjazByXrcGUTvdjKHM=
+		tv7kMgCwF572LmmDH2SwQ5A0Vvw=
 		</data>
 		<key>Headers/FNOnlyNativeAdView.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jf25JHuve1H4L3PJbcP0pcyUi/Q=
+		60mMz96dDdwtz9eB2zhUwoTo7Do=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wte65hunEH45BM8UHUb6MmT66ho=
+			wE+4Xlqugo3BscvHTMIjo+2Akbc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5NcOEu5UBQl238sWn/getIjtZced45XQNwsICd9mZMg=
+			iY8JHEs2MhxEkMhvNNtPVMB+IWxa0ukv/ysYckqY+Fk=
 			</data>
 		</dict>
 		<key>Headers/FNGDTBanner.h</key>
@@ -174,22 +174,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rYXoiLL3ZC+4u+VVL3qsxYn2RIc=
+			35zevHSiVh91PM5vXZIOqcTOU0U=
 			</data>
 			<key>hash2</key>
 			<data>
-			FK55ZtGlzDJrt+a7M2xMnyxDwIwmqLm+o0aVOvIknT8=
+			hg0qH1UhctIa5Hu16uGifp3W5mjVaY43cWSxnv+Fcvg=
 			</data>
 		</dict>
 		<key>Headers/FNOnlyNativeAdDataObject.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+n4gu1CCcvjazByXrcGUTvdjKHM=
+			tv7kMgCwF572LmmDH2SwQ5A0Vvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			s31/askUJdgWJenefcAiJdeQvjzM7NsXJYZ83lAE3tY=
+			Akr+PSd4MY9ygLYTJ8WJOcHydxQMLj5X9rf4S+aLBvg=
 			</data>
 		</dict>
 		<key>Headers/FNOnlyNativeAdView.h</key>

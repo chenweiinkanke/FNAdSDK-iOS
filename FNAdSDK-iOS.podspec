@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "4.6.02"
+  spec.version      = "5.1.2"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -149,7 +149,25 @@ Pod::Spec.new do |spec|
 
   end
 
- # Sig
+ # WM ok 
+  spec.subspec 'FNWMAdpter' do |s|
+         s.ios.deployment_target = '9.0'
+         s.vendored_frameworks = 'FNAdSDK/FNWMAdpter/FNWMAdpter.framework'
+         s.dependency 'FNAdSDK-iOS/FNAdSDK'
+         s.dependency 'AdWangMaiSDK', '5.3.0'
+        # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
+  end
+
+ # JDYun ok
+  spec.subspec 'FNJDYunAdpter' do |s|
+         s.ios.deployment_target = '9.0'
+         s.vendored_frameworks = 'FNAdSDK/FNJDYunAdpter/FNJDYunAdpter.framework'
+         s.dependency 'FNAdSDK-iOS/FNAdSDK'
+         s.dependency 'SigmobAd-iOS', '1.3.4'
+        # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
+  end
+
+ # Sig ok
   spec.subspec 'FNSigAdpter' do |s|
          s.ios.deployment_target = '9.0'
          s.vendored_frameworks = 'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
@@ -159,25 +177,25 @@ Pod::Spec.new do |spec|
   end
 
 
- # GDT
+ # GDT ok
   spec.subspec 'FNGDTAdpter' do |s|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNGDTAdpter/FNGDTAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'GDTMobSDK', '4.13.90'
+     s.dependency 'GDTMobSDK', '4.14.45'
   end
 
 
- # KS
+ # KS ok 
   spec.subspec 'FNKSAdpter' do |s|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNKSAdpter/FNKSAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'KSAdSDK', '3.3.33'
+     s.dependency 'KSAdSDK', '3.3.32'
   end
   
   
- # CSJ
+ # CSJ ok
   spec.subspec 'FNCSJAdpter' do |s|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNCSJAdpter/FNCSJAdpter.framework'
@@ -185,16 +203,16 @@ Pod::Spec.new do |spec|
      s.dependency 'Ads-CN-Beta', '5.0.0.1'
   end
   
- # BD
+ # BD ok 
   spec.subspec 'FNBDAdpter' do |s|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNBDAdpter/FNBDAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'BaiduMobAdSDK', '4.901'
+     s.dependency 'BaiduMobAdSDK', '5.313'
   end
   
   
-  # FNMobiAdpter
+  # FNMobiAdpter ok 
    spec.subspec 'FNMobiAdpter' do |s|
       s.ios.deployment_target = '9.0'
       s.vendored_frameworks =  'FNAdSDK/FNMobiAdpter/*.framework'

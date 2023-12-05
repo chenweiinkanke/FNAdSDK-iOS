@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param appId 应用ID
  *  说明：
  */
-- (NSString *)getFnCpuInfoUrlWithChannelId:(NSString *)channelId
+- (void)getFnCpuInfoUrlWithChannelId:(NSString *)channelId
                                    appId:(NSString *)appId;
 
 @end

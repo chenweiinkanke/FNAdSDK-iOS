@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "FNVideoConfig.h"
-
+#import "GDTUnifiedNativeAd.h"
 NS_ASSUME_NONNULL_BEGIN
 
 
@@ -137,6 +137,9 @@ typedef NS_ENUM(NSInteger, FNVastAdEventType) {
  */
 @property (nonatomic, copy) NSString *vastContent;
 
+@property (nonatomic, assign) BOOL isAdValid;
+
+
 /**
  * 是否为 VAST 广告
  */
@@ -149,6 +152,11 @@ typedef NS_ENUM(NSInteger, FNVastAdEventType) {
  @return YES or NO
  */
 - (BOOL)equalsAdData:(FNOnlyNativeAdDataObject *)dataObject;
+
+@property (nonatomic, strong)GDTUnifiedNativeAdDataObject *gdtObj;
+
+@property (nonatomic, strong)GDTUnifiedNativeAdView *gdtAdView;
+
 
 
 @end
