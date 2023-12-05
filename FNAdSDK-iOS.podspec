@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "5.1.2"
+  spec.version      = "5.1.2.1"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -163,7 +163,7 @@ Pod::Spec.new do |spec|
          s.ios.deployment_target = '9.0'
          s.vendored_frameworks = 'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
          s.dependency 'FNAdSDK-iOS/FNAdSDK'
-         s.dependency 'SigmobAd-iOS', '4.6.0'
+         # s.dependency 'SigmobAd-iOS', '4.6.0'
         # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
   end
 
@@ -173,7 +173,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNGDTAdpter/FNGDTAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'GDTMobSDK', '4.14.45'
+     # s.dependency 'GDTMobSDK', '4.14.45'
   end
 
 
@@ -182,7 +182,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNKSAdpter/FNKSAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'KSAdSDK', '3.3.32'
+     # s.dependency 'KSAdSDK', '3.3.32'
   end
   
   
@@ -191,7 +191,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNCSJAdpter/FNCSJAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'Ads-CN-Beta', '5.0.0.1'
+     # s.dependency 'Ads-CN-Beta', '5.0.0.1'
   end
   
  # BD ok 
@@ -199,7 +199,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNBDAdpter/FNBDAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     s.dependency 'BaiduMobAdSDK', '5.313'
+     # s.dependency 'BaiduMobAdSDK', '5.313'
   end
   
   
@@ -208,7 +208,7 @@ Pod::Spec.new do |spec|
       s.ios.deployment_target = '9.0'
       s.vendored_frameworks =  'FNAdSDK/FNMobiAdpter/*.framework'
       s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      s.dependency 'FNMobSDK', '5.4.2'
+      # s.dependency 'FNMobSDK', '5.4.2'
    end
   
 end
