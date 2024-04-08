@@ -8,18 +8,16 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
 typedef enum : NSUInteger {
     /**
     竞价
      */
-    FN_BID_TYPE = 1,
+    FN_V_BID_TYPE = 1,
     /**
      固价
      */
-    FN_GP_TYPE,
-} FN_PRICE_TYPE;
-
+    FN_V_GP_TYPE,
+} FN_Video_PRICE_TYPE;
 
 @protocol FNLoadReardVideoAdDelegate <NSObject>
 
@@ -66,11 +64,7 @@ typedef enum : NSUInteger {
  price 当前广告价格
  thirdAdId:第三方广告位id
  */
-- (void)loadSuccess:(FN_PRICE_TYPE)fnPriceType withPrice:(id)price withThirdAdID:(NSString *)thirdAdId;
-
-
-
-
+- (void)loadSuccess:(FN_Video_PRICE_TYPE)fnPriceType withPrice:(id)price withThirdAdID:(NSString *)thirdAdId;
 
 
 @end

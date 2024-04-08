@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/FNADManagers.h</key>
 		<data>
-		Iz+LjMP0tU7l5GEnltihJSqMJeI=
+		UX+dForYZG6ZsIIIuMZnt6xyOgA=
 		</data>
 		<key>Headers/FNAdSDK.h</key>
 		<data>
-		nW+0Evi73RQ4oTxzMaMinkE88h0=
+		KCGMqMyisOw/DbFfzLH9/cs2qUY=
 		</data>
 		<key>Headers/FNDrawAdsObject.h</key>
 		<data>
@@ -26,19 +26,11 @@
 		</data>
 		<key>Headers/FNGetLocation.h</key>
 		<data>
-		P/S7Gknsrwu6ewS6Dyv6+CEqQ3U=
+		lK5LlOvIYqPpNFnNv9d2Ufco0fc=
 		</data>
 		<key>Headers/FNInitalizeBanner.h</key>
 		<data>
 		51K0KiAYHfxa1DcuyJpXpD5qm0w=
-		</data>
-		<key>Headers/FNInitalizeCpuChannel.h</key>
-		<data>
-		bhe3iqLOAiLIKB9okfboDJsQfp4=
-		</data>
-		<key>Headers/FNInitalizeCpuChannelObj.h</key>
-		<data>
-		2CQN1R3NC8QqZIo6co2GAhVxyP8=
 		</data>
 		<key>Headers/FNInitalizeInterstitial.h</key>
 		<data>
@@ -46,7 +38,7 @@
 		</data>
 		<key>Headers/FNInitalizeInterstitialFullScreen.h</key>
 		<data>
-		YPVQoKUNfCTSgGXAsplQm50w4LM=
+		T8syg7r9c81QxZc9ZmfaTWlNu4o=
 		</data>
 		<key>Headers/FNInitalizeRardVideo.h</key>
 		<data>
@@ -60,17 +52,21 @@
 		<data>
 		Kg2WanqFUepYHCnBBgZLajYJoj4=
 		</data>
+		<key>Headers/FNInterstitialFullScreenAdDelegate.h</key>
+		<data>
+		Uvlrpr8uKj4lPz0jM/0Wt+Dx0MY=
+		</data>
 		<key>Headers/FNLoadInterstitialAdDelegate.h</key>
 		<data>
-		+rw1TUm2KlwvC7yvTW+QsF+HvvA=
+		erPqmgcUvmkgK/WdYiPy5V+t2lU=
 		</data>
 		<key>Headers/FNLoadReardVideoAdDelegate.h</key>
 		<data>
-		xOVIarYI2ZIgjohq/66Ab8KuWiQ=
+		T9NUoeiZWqCJJqsBohsya3ZvvMQ=
 		</data>
 		<key>Headers/FNLoadSplashAdDelegate.h</key>
 		<data>
-		tDd4I0iGNK3oeoF4WTYBzsMoQr4=
+		IQ3VkfpMPRFj9U5y54wauYHADf4=
 		</data>
 		<key>Headers/FNOnlyFeedAds.h</key>
 		<data>
@@ -90,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RYuk14Ik62zxc/siseueFhJ2yAs=
+		rj3DhbaVLGmS7tsqwuMMOwix+ro=
 		</data>
 		<key>InfoFNAdSDK.plist</key>
 		<data>
@@ -98,7 +94,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		KIf56YrkjtpGHn3PZ4uoFF9pOvs=
+		DLaLWsfWgP5G+/BatQdKmPTvjyM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -118,22 +114,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Iz+LjMP0tU7l5GEnltihJSqMJeI=
+			UX+dForYZG6ZsIIIuMZnt6xyOgA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jWYnjj52Oe/S2B2yiZUipqwpYWfWUGkVBNhamWN+TF0=
+			rD4wPmo+wE+8vczAmkV9f/pHw7GscYY5wqvtGs090SM=
 			</data>
 		</dict>
 		<key>Headers/FNAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nW+0Evi73RQ4oTxzMaMinkE88h0=
+			KCGMqMyisOw/DbFfzLH9/cs2qUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5zQ3cq8O04htK51jiYlCyryzOIoeF2IX7J5+2WeKKco=
+			/u48vaxD3PNB91FpMLsJZXx8za2YHwv5pLL7WJTVLEc=
 			</data>
 		</dict>
 		<key>Headers/FNDrawAdsObject.h</key>
@@ -162,11 +158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P/S7Gknsrwu6ewS6Dyv6+CEqQ3U=
+			lK5LlOvIYqPpNFnNv9d2Ufco0fc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bp4pMzKyMDuDvmpDjUp1JRXanE5mZ0fuPipjLBtJxkU=
+			Hv3UE25dbUWRbzGpLae2jFejx48veMx5r7abh9t42Yo=
 			</data>
 		</dict>
 		<key>Headers/FNInitalizeBanner.h</key>
@@ -178,28 +174,6 @@
 			<key>hash2</key>
 			<data>
 			gV8rC3+pCaGSANamu/b4K41HY8cTBsGqasapSmm7PaY=
-			</data>
-		</dict>
-		<key>Headers/FNInitalizeCpuChannel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bhe3iqLOAiLIKB9okfboDJsQfp4=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ko/AslMpsvCX6RZfU1PBQdMU6jrWIAA1orHBz+WW1lE=
-			</data>
-		</dict>
-		<key>Headers/FNInitalizeCpuChannelObj.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2CQN1R3NC8QqZIo6co2GAhVxyP8=
-			</data>
-			<key>hash2</key>
-			<data>
-			4w78SDhXVy6WCRdBXDD70bXqRoB95GZ0CzGJA8RVwcw=
 			</data>
 		</dict>
 		<key>Headers/FNInitalizeInterstitial.h</key>
@@ -217,11 +191,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YPVQoKUNfCTSgGXAsplQm50w4LM=
+			T8syg7r9c81QxZc9ZmfaTWlNu4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			MPnmmmU9kinoyaYZ7ZRJPM3SdxwQeQjydoIjtWiLHvI=
+			o20CtLkWuUoOk+7vvwqU9cmPeqeEIWWfcdj1A/STU60=
 			</data>
 		</dict>
 		<key>Headers/FNInitalizeRardVideo.h</key>
@@ -257,37 +231,48 @@
 			faMIoRRhxhEC/YtfWoxtfy1BHUWaeTmoybbEfSrLBA0=
 			</data>
 		</dict>
+		<key>Headers/FNInterstitialFullScreenAdDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Uvlrpr8uKj4lPz0jM/0Wt+Dx0MY=
+			</data>
+			<key>hash2</key>
+			<data>
+			xdd5ko//Zpm54e3nBLujDCCCiGDMHNJvhZDs2DwTg80=
+			</data>
+		</dict>
 		<key>Headers/FNLoadInterstitialAdDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+rw1TUm2KlwvC7yvTW+QsF+HvvA=
+			erPqmgcUvmkgK/WdYiPy5V+t2lU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HO4FFjGJ+wK/UnrLSuiavY53+xHZY9V7PD/qRoI1jUI=
+			izEWfexMNesTw4rwlPqv1QEjIVAsZhN6zhqVn52vsF4=
 			</data>
 		</dict>
 		<key>Headers/FNLoadReardVideoAdDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xOVIarYI2ZIgjohq/66Ab8KuWiQ=
+			T9NUoeiZWqCJJqsBohsya3ZvvMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			H4Rjt1b+zQbA7Qer05YztllzslZnybYyk5Net5g+F14=
+			rZK5CGwSzV6oz3jnS5cApZc70IbKh/cq4Q4zNHhZsxE=
 			</data>
 		</dict>
 		<key>Headers/FNLoadSplashAdDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tDd4I0iGNK3oeoF4WTYBzsMoQr4=
+			IQ3VkfpMPRFj9U5y54wauYHADf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PJMEpoXnw/v2NCRwzQ14IwK/4fx7azjTzL2/qW2a6m8=
+			VlGcOhrOyLf4nyNY6KyhqbQxaUQpCnCaoi/9CuEyZw0=
 			</data>
 		</dict>
 		<key>Headers/FNOnlyFeedAds.h</key>
@@ -349,11 +334,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KIf56YrkjtpGHn3PZ4uoFF9pOvs=
+			DLaLWsfWgP5G+/BatQdKmPTvjyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LgWgJoaMDYB9OmemySNglgKg9wlQfmWr4hrznIqlQng=
+			big454z9hXIjz6Zw7sO1Ct/CCeXfWDmN2KKeRGX6hQs=
 			</data>
 		</dict>
 	</dict>

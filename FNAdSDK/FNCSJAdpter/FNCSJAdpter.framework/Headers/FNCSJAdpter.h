@@ -15,7 +15,7 @@ FOUNDATION_EXPORT const unsigned char FNCSJAdpterVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FNCSJAdpter/PublicHeader.h>
 
-// ***************** 当前版本: 4.1.0.2 *******************
+// ***************** 当前版本: 6.1.0.2 *******************
 
 #import <FNCSJAdpter/FNCSJSDKAdpter.h>
 #import <FNCSJAdpter/FNCSJSplash.h>

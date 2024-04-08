@@ -22,6 +22,7 @@ FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 #import <FNAdSDK/FNLoadInterstitialAdDelegate.h>
 #import <FNAdSDK/FNInitalizeInterstitial.h>
 #import <FNAdSDK/FNInitalizeInterstitialFullScreen.h>
+#import <FNAdSDK/FNInterstitialFullScreenAdDelegate.h>
 
 //rewardVideo
 #import <FNAdSDK/FNLoadReardVideoAdDelegate.h>
@@ -38,8 +39,8 @@ FOUNDATION_EXPORT const unsigned char FNAdSDKVersionString[];
 #import <FNAdSDK/FNVideoFeed.h>
 
 //cpuChannel
-#import <FNAdSDK/FNInitalizeCpuChannel.h>
-#import <FNAdSDK/FNInitalizeCpuChannelObj.h>
+//#import <FNAdSDK/FNInitalizeCpuChannel.h>
+//#import <FNAdSDK/FNInitalizeCpuChannelObj.h>
 
 //#import <FNAdSDK/FNDrawRewardAds.h>
 

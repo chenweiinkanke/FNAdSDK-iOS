@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FNAdSDK-iOS"
-  spec.version      = "5.1.2.13"
+  spec.version      = "5.2.0.1"
   spec.summary      = "A short description of FNAdSDK-iOS."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = "FNAdSDK-iOS is an aggregate advertising SDK service provided by FuNeng."
                    
 
-  spec.homepage     = "https://github.com/TomandWinnie/FNAdSDK-iOS"
+  spec.homepage     = "https://github.com/chenweiinkanke/FNAdSDK-iOS"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "HL" => "342403887@qq.com" }
+  spec.author             = { "HL" => "chenwei@inkanke.com" }
   # Or just: spec.author    = "HL"
   # spec.authors            = { "HL" => "helei@cdcyi.cn" }
   # spec.social_media_url   = "https://twitter.com/HL"
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/TomandWinnie/FNAdSDK-iOS.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/chenweiinkanke/FNAdSDK-iOS.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -149,21 +149,12 @@ Pod::Spec.new do |spec|
 
   end
 
- # WM ok 
-  spec.subspec 'FNWMAdpter' do |s|
-         s.ios.deployment_target = '9.0'
-         s.vendored_frameworks = 'FNAdSDK/FNWMAdpter/FNWMAdpter.framework'
-         s.dependency 'FNAdSDK-iOS/FNAdSDK'
-        # s.dependency 'AdWangMaiSDK', '5.3.0'
-        # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
-  end
-
  # Sig ok
   spec.subspec 'FNSigAdpter' do |s|
          s.ios.deployment_target = '9.0'
          s.vendored_frameworks = 'FNAdSDK/FNSigAdpter/FNSigmobAdpter.framework'
          s.dependency 'FNAdSDK-iOS/FNAdSDK'
-         # s.dependency 'SigmobAd-iOS', '4.6.0'
+         s.dependency 'SigmobAd-iOS', '4.12.4'
         # s.dependency 'SigmobAd-iOS/SigmobTapjoyAdapter'
   end
 
@@ -173,7 +164,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNGDTAdpter/FNGDTAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     # s.dependency 'GDTMobSDK', '4.14.45'
+     s.dependency 'GDTMobSDK', '4.14.60'
   end
 
 
@@ -182,16 +173,16 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNKSAdpter/FNKSAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     # s.dependency 'KSAdSDK', '3.3.32'
+     s.dependency 'KSAdSDK', '3.3.32'
   end
   
   
  # CSJ ok
   spec.subspec 'FNCSJAdpter' do |s|
-     s.ios.deployment_target = '9.0'
+     s.ios.deployment_target = '11.0'
      s.vendored_frameworks =  'FNAdSDK/FNCSJAdpter/FNCSJAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     # s.dependency 'Ads-CN-Beta', '5.0.0.1'
+     s.dependency 'Ads-CN-Beta', '6.1.0.2'
   end
   
  # BD ok 
@@ -199,7 +190,7 @@ Pod::Spec.new do |spec|
      s.ios.deployment_target = '9.0'
      s.vendored_frameworks =  'FNAdSDK/FNBDAdpter/FNBDAdpter.framework'
      s.dependency 'FNAdSDK-iOS/FNAdSDK'
-     # s.dependency 'BaiduMobAdSDK', '5.313'
+     s.dependency 'BaiduMobAdSDK', '5.331'
   end
   
   
@@ -208,7 +199,7 @@ Pod::Spec.new do |spec|
       s.ios.deployment_target = '9.0'
       s.vendored_frameworks =  'FNAdSDK/FNMobiAdpter/*.framework'
       s.dependency 'FNAdSDK-iOS/FNAdSDK'
-      # s.dependency 'FNMobSDK', '5.4.2'
+      s.dependency 'FNMobSDK', '5.4.2'
    end
   
 end

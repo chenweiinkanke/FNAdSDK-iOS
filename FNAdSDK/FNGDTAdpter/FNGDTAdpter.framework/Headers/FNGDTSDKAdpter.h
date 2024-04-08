@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FNGDTSDKAdpter : NSObject
 
-+ (void)initialize_SDK:(NSDictionary *)paramsAd;
++ (void)initialize_SDK:(NSDictionary *)paramsAd completionHandler:(void(^)(BOOL success, NSError *error))handler;
 @end
 
 NS_ASSUME_NONNULL_END

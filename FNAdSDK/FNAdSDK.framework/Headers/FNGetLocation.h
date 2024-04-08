@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FNGetLocation : NSObject
 
-/**初始化当前类*/
+/**初始化当前类*/ 
 + (instancetype)sharedInstance;
 
 - (void)getLocation:(NSString*)currentTime;

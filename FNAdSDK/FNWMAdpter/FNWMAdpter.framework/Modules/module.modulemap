@@ -1,6 +1,0 @@
-framework module FNWMAdpter {
-  umbrella header "FNWMAdpter.h"
-
-  export *
-  module * { export * }
-}

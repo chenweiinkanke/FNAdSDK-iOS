@@ -1,6 +1,6 @@
 framework module FNKSAdpter {
   umbrella header "FNKSAdpter.h"
-
   export *
+
   module * { export * }
 }
